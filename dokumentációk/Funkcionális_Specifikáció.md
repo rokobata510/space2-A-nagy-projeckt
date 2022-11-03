@@ -1,4 +1,6 @@
-# 1. Jelenlegi helyzet leírása
+#Funkcionális Specifikáció
+____
+## 1. Jelenlegi helyzet leírása
   A 21. század fiatal generációi az internet korába születtek bele. Ebből kifolyólag már egészen
   fiatal korukban érdeklődést mutatnak az okos eszközök iránt (ezzel párhuzamban az interneten
   található weboldalak iránt). Jelenleg a szülők ki is használják ezen érdeklődést a gyermekeik
