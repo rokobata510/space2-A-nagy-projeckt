@@ -267,3 +267,23 @@ továbbit részletes tesztek: Teszt.md
 A programunk futtatásához csupán egy webböngésző szükségeltetik amely a legtöbb informatikai eszközön alapból megtalálható. Ez által nem igényel sem fizikai sem pedig szoftver telepítést ezzel is felhasználó baráttá téve az oldalt.
 
 ## 12. Karbantartási terv
+Elkerülhetetlen napi ellenőrzési folyamatok:
+
+    - Az oldal betölt hibátlanul (nem lassú, látható)
+
+    - A kép tökéletesen látható
+
+    - A tippelés rendszer megfelelően ad vissza igaz vagy hamis választ
+
+    - Az oldal kinézete nincs elcsúszva és minden eszközön látható
+
+Alkalmanként ellenőrzési terv:
+
+    - Kód modernizálása
+
+    - Rendszeres képtárbővítés
+
+    - Korszerűsített frontend változtatások
+
+    - Felhasználók által adott hibák és kiskapuk kezelése/javítása
+
