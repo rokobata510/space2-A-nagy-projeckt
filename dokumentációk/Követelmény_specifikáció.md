@@ -63,11 +63,8 @@ meg a felhasználóbarát környezetet.
 
 ## 7. Fogalomtár
 - WEBOLDAL: jelen helyzetben egy felület melyen kommunikációra van szükség egy kép megoldása kapcsán.
-
 - HASZNÁLAT: a felhasználó az oldalon megjelenő képet látja meg először. A fotón megtekinthető ismert médiai alak elemzése után beírja a nevét az oldal alján lévő keretbe majd az oldal egy 'helyes' vagy 'téves' visszajelzést ad a felhasználó számára.
-
 - FRONT_END: a programoknak, weboldalaknak az a része, amelyik a felhasználóval közvetlenül kapcsolatban van. Feladata az adatok megjelenése, befogadása a felhasználó felől.
-
 - BACK_END: a programoknak, weboldalaknak a hátsó, a felhasználó elől rejtett, a tényleges számításokat végző része. Feladata a front‑end felől érkező adatok feldolgozása, és az eredményeknek a front‑end felé történő visszajuttatása.
 
 
