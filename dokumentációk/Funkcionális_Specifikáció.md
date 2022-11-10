@@ -58,7 +58,10 @@
 
 
 ## 8. Képernyő tervek
-
+![kül1](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl1.png)
+![kül2](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl2.png)
+![kül3](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl3.png)
+![kül4](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl4.png)
 
 
 
