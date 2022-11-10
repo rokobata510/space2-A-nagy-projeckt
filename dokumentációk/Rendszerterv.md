@@ -205,3 +205,60 @@ A program elérése, kezelése
 - HTML/CSS kód segítségével könnyedén megtekinthető böngészőben (eszköztől függetlenül)
 
 ## 10. Tesztterv
+###Tesztesetek:
+
+ | Tesztterv | Elvárt eredmény | 
+
+ | --- | --- |
+
+ | Szövegdoboz | Az írás opciója lehetséges, olvasható, látható. | 
+
+ | Kép megjelenés | A kép látható és nem torz(pixeles, darabos) |
+
+ | Helyes válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
+
+ | Hibás válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
+
+ |Új kép helyes válasz esetén| Új kép megjelenik helyes válasz esetén |
+
+ | Helyes válasz átlag | A profiladatoknál a helyes és helytelen válaszok átlaga megjelenik pontosan |
+
+ | Név váltás | A felhasználó könnyen nevet tud változtatni |
+
+ | Jelszó váltás | A felhasználó könnyen jelszót tud változtatni |
+
+ | Kép beállítás lehetősége | A felhasználó könnyen egyedi profil képet tud beállítani |
+
+ | Regisztráció | Új felhasználó regisztrációja működőképes |
+
+ | Bejelentkezés | A felhasználó be tud lépni az oldalra |
+
+ | Elérhetőség | A felhasználó csak bejelentkezés után érheti el az oldalt |
+
+ | ... | ... |
+
+____
+
+###A tesztelési stratégia:
+
+Fejlesztői csapatunk folyamatosan teszteli a fejlesztett funkciókat és értesítjük egymást a fenn maradott hibák meglétéről, hogy javításuk mielőbb meg tudjuk kezdeni. A teszteléseink gyakoriságának és sokszínűségének célja, hogy minél több ember könnyebben tudja átfésülni és jelenteni a hibákat a csapat számára mely elsődleges célja, hogy minél több hiba megtalálásra leljen.
+
+______
+
+###A tesztelési jegyzőkönyv kitöltésére egy sablon:
+
+Tesztelő: Vezetéknév Keresztnév
+
+Tesztelés dátuma: Év.Hónap.Nap
+
+Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
+
+-------|----------|-----------|--------|---------
+
+például. #01 | Kép | A kép látható és változik,  | A kép változik | Nem találtam problémát.
+
+... | ... | ... | ... | ...
+
+_____
+
+továbbit részletes tesztek: Teszt.md
