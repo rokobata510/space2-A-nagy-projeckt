@@ -104,6 +104,50 @@ Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megte
 Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés) után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni, adatait módosítani/új adatokat megadni és kijelentkezni.
 
 ## 4. Követelmények
+### Funkcionális követelmények
 
+| ID | Megnevezés | Leírás |
+
+| --- | --- | --- |
+
+| K1 | Szövegdoboz | Ebbe az elembe lehet szöveget írni és így a fotón szerepelő alanyt megtippelni. |
+
+| K2 | Kép | Kép láthatósága és minőségi kinézete az elvárt keretek között. |
+
+| K3 | Backend | Gyors betöltés, hibamentes működés, szép kódolás |
+
+| K4 | Küldés gomb | A gomb működik és adatot dob vissza a felhasználónak. |
+
+| K5 | Helyes találat | A felhasználó üzenetet kap a helyes találat esetén |
+
+| K6 | Helytelen találat | A felhasználó üzenetet kap a helytelen találat esetén |
+
+| K7 | Menüsor | A menüsor működik és a megfelelő oldalra dob kattintás után. |
+
+| K8 | Név módosítás | A felhasználó nevét lehet módosítani vele |
+
+| K9 | Jelszó módosítás | A felhasználó a jelszavát tudja módosítani vele |
+
+| K10 | Kép feltöltés | A felhasználó profilképet tud magának feltölteni |
+
+| K11 | Átlag pont | A helyes és helytelen válaszok átlaga megjelenik. |
+
+____
+
+### Nem funkcionális követelmények
+
+| ID | Megnevezés | Leírás |
+
+| --- | --- | --- |
+
+| K1 | Frontend | Letisztult és igényes külső, amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
+
+_____
+
+### Támogatott eszközök:
+
+Web böngészők például: Chrome, Firefox, Opera [...]
+
+Megtekinthető okos telefonokon; tableteken; laptopokon [...] 
 
 
