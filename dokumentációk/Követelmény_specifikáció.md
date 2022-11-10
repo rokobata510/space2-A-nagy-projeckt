@@ -20,3 +20,23 @@
 ## 5. Igényelt üzleti folyamatok modellje 
 
 ## 6. Követelménylista
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- | --- |
+| K1 | Felület | Főoldal | a kép itt látható |
+| K2 | Felület | Főoldal | itt van a kép kitalálási lehetőséget adó szöveg doboz |
+| K3 | Adatbázis | Adatbázis | adat tárolásra szolgál | 
+| K4 | Kód  | HTML | az oldal vázát adja |
+| K5 | Kód  | CSS | az oldal kinézetéért felelős |
+| K6 | Kód  | PHP | a funkciók működéséért felel |
+| K7 | Felület | Adatok | jelszó változtatás lehetőség helye |
+| K8 | Felület | Adatok | felhasználónév változtatás lehetőség helye |
+| K9 | Felület | Adatok | email változtatás lehetőségének helye |
+| K10 | Kód | Laravel | a felület vázát adja |
+| K11 | Felület | Regisztráció| a felhasználó itt tud regisztrálni |
+| K12 | Felület | Bejelentkezés | a felhasználó itt tud bejelentkezni |
+| K13 | Adatbázis | tábla(user) | itt tárolódnak a felhasználó adatok |
+| K14 | Adatbázis |  tábla(pics) | itt tárolódnak a képek |
+
+
+
+
