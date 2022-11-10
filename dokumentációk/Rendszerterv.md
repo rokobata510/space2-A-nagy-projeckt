@@ -160,3 +160,6 @@ ______
 ### 5.2 Menühierarchiák
 
 Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a felhasználót a főoldal fogadja, ahol megtalálja magát a kép felismerős rendszert valamint innen tud átlépni más menü pontokba is. Ilyen az adatait tartalmazó menüpont is ahol testre szabhatja felhasználói képét valamint nevet és jelszót változtathat.
+
+## 6. Fizikai környezet
+
