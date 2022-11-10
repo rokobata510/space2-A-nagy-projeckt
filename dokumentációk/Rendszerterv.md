@@ -4,7 +4,7 @@
    A rendszer célja, hogy az oldalra ellátogató felhasználóknak(első sorban fiatalok a célközönségünk) lehetőséget adjunk egy egyszerű ám, de populáris kép kitalálására valamint verseny helyzetet teremtsünk a helyes és helytelen válaszok átlagának megjelenítésével az oldalra ellátogatók között. A képeket különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői számára tökéletes élményt nyújtson valamint könnyed felismerhetőséget adjon a felhasználók számára. A felület egyszerűségében rejti a szépségét és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt mutat saját magának valamint a világnak.
 
 ## 2. Projektterv
-2.1 Projektszerepkörök, felelőségek:
+### 2.1 Projektszerepkörök, felelőségek:
 
    * Scrum masters: Takács Róbert
 
@@ -14,7 +14,7 @@
 
 _________________ 
 
-2.2 Projektmunkások és felelőségek:
+### 2.2 Projektmunkások és felelőségek:
 
    * Frontend:
 
@@ -48,7 +48,7 @@ _________________
 
 _________________
 
-2.3 Ütemterv:
+### 2.3 Ütemterv:
 
 |Funkció | Feladat | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
 
@@ -70,7 +70,7 @@ _________________
 
 _________________
 
-2.4 Mérföldkövek:
+### 2.4 Mérföldkövek:
 
    10. 06. ~ Az ötlet gondolatának megszületése ~
 
