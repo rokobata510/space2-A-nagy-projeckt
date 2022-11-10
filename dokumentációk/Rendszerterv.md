@@ -198,3 +198,8 @@ Adatbázis rendszer
 A program elérése, kezelése
 
 ## 9. Implementációs terv
+- PHP és Laravel alapú oldal, 
+
+- MYSQL segítségével adatokat tárol,
+
+- HTML/CSS kód segítségével könnyedén megtekinthető böngészőben (eszköztől függetlenül)
