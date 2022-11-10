@@ -191,3 +191,8 @@ ___
 - Visual Studio Code (Laravel, PHP, HTML, CSS, Javascript)
 
 ## 7. Architekturális terv
+Webszerver
+
+Adatbázis rendszer
+
+A program elérése, kezelése
