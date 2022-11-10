@@ -151,3 +151,12 @@ Web böngészők például: Chrome, Firefox, Opera [...]
 Megtekinthető okos telefonokon; tableteken; laptopokon [...] 
 
 ## 5. Funkcionális terv
+### 5.1 Rendszerszereplők
+
+A rendszer internet hiányában is működtethető importálás megtörténte feltétele mellett. Jogosultsági körben a felhasználók között kettőt különböztetünk meg az admin és az egyszerű felhasználót. Az admin felhasználó több olyan funkciót is lát amit más felhasználók nem tekinthetnek meg és/vagy nincs joguk azon változtatásához.
+
+______
+
+### 5.2 Menühierarchiák
+
+Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a felhasználót a főoldal fogadja, ahol megtalálja magát a kép felismerős rendszert valamint innen tud átlépni más menü pontokba is. Ilyen az adatait tartalmazó menüpont is ahol testre szabhatja felhasználói képét valamint nevet és jelszót változtathat.
