@@ -95,3 +95,10 @@ _________________
    12. 08. ~ Utolsó hiba javítások és végleges verzió kiadása ~
 
 ## 3. Üzleti folyamatok modellje
+### 3.1 Üzleti szereplők
+
+Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megtekinthető és használható internet kapcsolat és web böngésző feltétele mellett. Nem igényel szoftvertelepítést azonban böngészőnek kell, lennie a felhasználó eszközén ám ez lehet egy alapböngésző például: Internet Explorer is. Az a döntés, hogy milyen eszközön és milyen böngészőben nyitja meg az oldalt a felhasználó az teljesen rá és a meglévő eszközeire van bízva.
+
+### 3.2 Üzleti folyamatok
+
+Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés) után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni, adatait módosítani/új adatokat megadni és kijelentkezni.
