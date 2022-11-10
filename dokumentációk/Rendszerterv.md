@@ -1,5 +1,5 @@
 # Rendszerterv
-------
+
 ## 1. A rendszer célja
    A rendszer célja, hogy az oldalra ellátogató felhasználóknak(első sorban fiatalok a célközönségünk)
    lehetőséget adjunk egy egyszerű ám, de populáris kép kitalálására valamint verseny helyzetet teremtsünk
@@ -260,21 +260,21 @@ is felhasználó baráttá téve az oldalt.
 ## 12. Karbantartási terv
 Elkerülhetetlen napi ellenőrzési folyamatok:
 
-    - Az oldal betölt hibátlanul (nem lassú, látható)
+- Az oldal betölt hibátlanul (nem lassú, látható)
 
-    - A kép tökéletesen látható
+- A kép tökéletesen látható
 
-    - A tippelés rendszer megfelelően ad vissza igaz vagy hamis választ
+- A tippelés rendszer megfelelően ad vissza igaz vagy hamis választ
 
-    - Az oldal kinézete nincs elcsúszva és minden eszközön látható
+- Az oldal kinézete nincs elcsúszva és minden eszközön látható
 
 Alkalmanként ellenőrzési terv:
 
-    - Kód modernizálása
+- Kód modernizálása
 
-    - Rendszeres képtárbővítés
+- Rendszeres képtárbővítés
 
-    - Korszerűsített frontend változtatások
+- Korszerűsített frontend változtatások
 
-    - Felhasználók által adott hibák és kiskapuk kezelése/javítása
+- Felhasználók által adott hibák és kiskapuk kezelése/javítása
 
