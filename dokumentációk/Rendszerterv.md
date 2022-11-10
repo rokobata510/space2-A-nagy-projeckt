@@ -264,3 +264,4 @@ _____
 továbbit részletes tesztek: Teszt.md
 
 ## 11. Telepítési terv
+A programunk futtatásához csupán egy webböngésző szükségeltetik amely a legtöbb informatikai eszközön alapból megtalálható. Ez által nem igényel sem fizikai sem pedig szoftver telepítést ezzel is felhasználó baráttá téve az oldalt.
