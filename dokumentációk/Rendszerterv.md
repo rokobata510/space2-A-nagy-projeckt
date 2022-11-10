@@ -92,6 +92,8 @@ Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megte
 
 Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés) után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni, adatait módosítani/új adatokat megadni és kijelentkezni.
 
+![terv](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/terv.png)
+
 ## 4. Követelmények
 ### Funkcionális követelmények
 
