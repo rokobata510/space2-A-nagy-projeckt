@@ -203,3 +203,5 @@ A program elérése, kezelése
 - MYSQL segítségével adatokat tárol,
 
 - HTML/CSS kód segítségével könnyedén megtekinthető böngészőben (eszköztől függetlenül)
+
+## 10. Tesztterv
