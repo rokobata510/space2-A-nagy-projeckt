@@ -196,3 +196,5 @@ Webszerver
 Adatbázis rendszer
 
 A program elérése, kezelése
+
+## 9. Implementációs terv
