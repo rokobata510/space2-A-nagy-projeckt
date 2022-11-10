@@ -102,3 +102,8 @@ Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megte
 ### 3.2 Üzleti folyamatok
 
 Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés) után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni, adatait módosítani/új adatokat megadni és kijelentkezni.
+
+## 4. Követelmények
+
+
+
