@@ -57,7 +57,7 @@
 5. Adatbázisban adatok tárolása a felhasználóról és az oldalon megjelenő képekről egyaránt.
 
 
-
+## 8. Képernyő tervek
 
 
 
