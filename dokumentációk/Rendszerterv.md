@@ -162,4 +162,30 @@ ______
 Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a felhasználót a főoldal fogadja, ahol megtalálja magát a kép felismerős rendszert valamint innen tud átlépni más menü pontokba is. Ilyen az adatait tartalmazó menüpont is ahol testre szabhatja felhasználói képét valamint nevet és jelszót változtathat.
 
 ## 6. Fizikai környezet
+### Vásárolt szoftverkomponensek és külső rendszerek
 
+Nem igényel vásárolt szoftverkomponenst ugyanis bármilyen webböngésző és internet kapcsolat rendelkezés feltétele mellett bárki futtatni tudja.
+
+___
+
+### Hardver topológia
+
+Az oldal elektronikai eszközön(laptop, telefon) amely rendelkezik egy böngészővel könnyedén futtatható hiba nélkül.
+
+___
+
+### Fizikai alrendszerek
+
+Egy böngésző, amely az elektronikai eszközön fut abba lehetséges az oldal futtatása és megtekintése. (például: Internet Explorer, Chrome, Mozilla Firefox, Opera Browser stb.)
+
+___
+
+### Fejlesztő eszközök:
+
+- Figma
+
+- Trello
+
+- Github
+
+- Visual Studio Code (Laravel, PHP, HTML, CSS, Javascript)
