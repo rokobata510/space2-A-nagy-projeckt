@@ -94,3 +94,4 @@ _________________
 
    12. 08. ~ Utolsó hiba javítások és végleges verzió kiadása ~
 
+## 3. Üzleti folyamatok modellje
