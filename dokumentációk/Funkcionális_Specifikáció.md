@@ -45,5 +45,5 @@
 
 - A kép megtekintése és vizuális felfogása
 
-
+## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
