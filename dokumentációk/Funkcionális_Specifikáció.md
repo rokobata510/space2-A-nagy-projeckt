@@ -35,3 +35,9 @@
 | K12 | Felület | Bejelentkezés | a felhasználó itt tud bejelentkezni |
 | K13 | Adatbázis | tábla(user) | itt tárolódnak a felhasználó adatok |
 | K14 | Adatbázis |  tábla(pics) | itt tárolódnak a képek |
+
+## 6. Használati esetek
+
+
+
+
