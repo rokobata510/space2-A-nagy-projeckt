@@ -6,93 +6,82 @@
 ## 2. Projektterv
 ### 2.1 Projektszerepkörök, felelőségek:
 
-   * Scrum masters: Takács Róbert
+   * Scrum masters: **Takács Róbert**
 
-   * Product owner: Takács Róbert
+   * Product owner: **Takács Róbert**
 
-   * Üzleti szereplő: Takács Róbert
+   * Üzleti szereplő: **Takács Róbert**
 
-_____
 
 ### 2.2 Projektmunkások és felelőségek:
 
-   * Frontend:
+   * **Frontend:**
 
-        elsődleges: Petrovics Tímea
+        Elsődleges: **Petrovics Tímea**
 
-        másodlagos: Szilágyi Debóra
+        Másodlagos: **Szilágyi Debóra**
 
-        harmadlagos: Les Heidrich
+        Harmadlagos: **Heidrich Lóránd**
 
-        utólagos: Rokob Attila Adrián
+        Utólagos: **Rokob Attila Adrián**
 
-   * Backend:
+   * **Backend:**
 
-       elsődleges: Rokob Attila Adrián
+       Elsődleges: **Rokob Attila Adrián**
 
-       másodlagos: Les Heidrich
+       Másodlagos: **Heidrich Lóránd**
 
-       harmadlagos: Szilágyi Debóra
+       Harmadlagos: **Szilágyi Debóra**
 
-       utólagos: Petrovics Tímea
+       Utólagos: **Petrovics Tímea**
 
-   * Tesztelés:
+   * **Tesztelés:**
 
-       elsődleges: Les Heidrich
+       Elsődleges: **Heidrich Lóránd**
 
-       másodlagos: Szilágyi Debóra
+       Másodlagos: **Szilágyi Debóra**
 
-       harmadlagos: Rokob Attila Adrián
+       Harmadlagos: **Rokob Attila Adrián**
 
-       utólagos: Petrovics Tímea 
+       Utólagos: **Petrovics Tímea**
 
-_____
 
 ### 2.3 Ütemterv:
 
 |Funkció | Feladat | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
-
-|-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
-
+|--------|---------|-----------|---------------|------------------------|------------------|---------------------|
 |Követelmény specifikáció |Megírás | 2 | 2 | 1,5 | 2 | 2 |
-
 |Funkcionális specifikáció|Megírás | 1,5 | 1 | 1,5 | 1 | 1 |
-
 |Rendszerterv |Megírás | 1 | 2 | 2 | 1 | 3 |
-
 |Program |Képernyőtervek elkészítése | 3 | 4 | 4 | 3 | 3 |
-
 |Program |Prototípus elkészítése | 4 | 8 | 9 | 8 | 8 |
-
 |Program |Alapfunkciók elkészítése | 3 | 8 | 8 | 9 | 7 |
-
 |Program |Tesztelés | 4 | 2 | 3 | 3 | 2 |
 
-____
 
 ### 2.4 Mérföldkövek:
 
-   10. 06. ~ Az ötlet gondolatának megszületése ~
+   10. 06 ~ Az ötlet gondolatának megszületése ~
 
-   10. 07. ~ Frontend tervének megbeszélése ~
+   10. 07 ~ Frontend tervének megbeszélése ~
 
-   10. 13. ~ Kód és dokumentáció elkezdése ~
+   10. 13 ~ Kód és dokumentáció elkezdése ~
 
-   10. 20. ~ Dokumentáció befejezése ~
+   10. 20 ~ Dokumentáció befejezése ~
 
-   10. 23. ~ Első tesztek ~
+   10. 23 ~ Első tesztek ~
 
-   10. 24. ~ Dokumentáció helyesírásának javítása ~
+   10. 24 ~ Dokumentáció helyesírásának javítása ~
 
-   10. 27. ~ Kód megírásának befejezése ~
+   10. 27 ~ Kód megírásának befejezése ~
 
-   10. 29. ~ Végső tesztelések ~
+   10. 29 ~ Végső tesztelések ~
 
-   11. 03. ~ Hibajavítások és dokumentáció kinézet szerkeztés. ~
+   11. 03 ~ Hibajavítások és dokumentáció kinézet szerkeztés. ~
 
-   11. 10. ~ Közel végső állapot bemutatása ~
+   11. 10 ~ Közel végső állapot bemutatása ~
 
-   12. 08. ~ Utolsó hiba javítások és végleges verzió kiadása ~
+   12. 08 ~ Utolsó hiba javítások és végleges verzió kiadása ~
 
 ## 3. Üzleti folyamatok modellje
 ### 3.1 Üzleti szereplők
@@ -107,42 +96,28 @@ Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja
 ### Funkcionális követelmények
 
 | ID | Megnevezés | Leírás |
-
 | --- | --- | --- |
-
 | K1 | Szövegdoboz | Ebbe az elembe lehet szöveget írni és így a fotón szerepelő alanyt megtippelni. |
-
 | K2 | Kép | Kép láthatósága és minőségi kinézete az elvárt keretek között. |
-
 | K3 | Backend | Gyors betöltés, hibamentes működés, szép kódolás |
-
 | K4 | Küldés gomb | A gomb működik és adatot dob vissza a felhasználónak. |
-
 | K5 | Helyes találat | A felhasználó üzenetet kap a helyes találat esetén |
-
 | K6 | Helytelen találat | A felhasználó üzenetet kap a helytelen találat esetén |
-
 | K7 | Menüsor | A menüsor működik és a megfelelő oldalra dob kattintás után. |
-
 | K8 | Név módosítás | A felhasználó nevét lehet módosítani vele |
-
 | K9 | Jelszó módosítás | A felhasználó a jelszavát tudja módosítani vele |
-
 | K10 | Kép feltöltés | A felhasználó profilképet tud magának feltölteni |
-
 | K11 | Átlag pont | A helyes és helytelen válaszok átlaga megjelenik. |
 
----
+
 
 ### Nem funkcionális követelmények
 
 | ID | Megnevezés | Leírás |
-
 | --- | --- | --- |
-
 | K1 | Frontend | Letisztult és igényes külső, amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
 
-----
+
 
 ### Támogatott eszközök:
 
@@ -155,7 +130,7 @@ Megtekinthető okos telefonokon; tableteken; laptopokon [...]
 
 A rendszer internet hiányában is működtethető importálás megtörténte feltétele mellett. Jogosultsági körben a felhasználók között kettőt különböztetünk meg az admin és az egyszerű felhasználót. Az admin felhasználó több olyan funkciót is lát amit más felhasználók nem tekinthetnek meg és/vagy nincs joguk azon változtatásához.
 
----
+
 
 ### 5.2 Menühierarchiák
 
@@ -166,19 +141,19 @@ Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a f
 
 Nem igényel vásárolt szoftverkomponenst ugyanis bármilyen webböngésző és internet kapcsolat rendelkezés feltétele mellett bárki futtatni tudja.
 
----
+
 
 ### Hardver topológia
 
 Az oldal elektronikai eszközön(laptop, telefon) amely rendelkezik egy böngészővel könnyedén futtatható hiba nélkül.
 
----
+
 
 ### Fizikai alrendszerek
 
 Egy böngésző, amely az elektronikai eszközön fut abba lehetséges az oldal futtatása és megtekintése. (például: Internet Explorer, Chrome, Mozilla Firefox, Opera Browser stb.)
 
-----
+
 
 ### Fejlesztő eszközök:
 
@@ -208,61 +183,44 @@ A program elérése, kezelése
 - HTML/CSS kód segítségével könnyedén megtekinthető böngészőben (eszköztől függetlenül)
 
 ## 10. Tesztterv
-###Tesztesetek:
+### Tesztesetek:
 
  | Tesztterv | Elvárt eredmény | 
-
- | --- | --- |
-
+ |-----|-----|
  | Szövegdoboz | Az írás opciója lehetséges, olvasható, látható. | 
-
- | Kép megjelenés | A kép látható és nem torz(pixeles, darabos) |
-
+ | Kép megjelenés | A kép látható és nem torz(pixeles, darabos)  |
  | Helyes válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
-
  | Hibás válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
-
  |Új kép helyes válasz esetén| Új kép megjelenik helyes válasz esetén |
-
  | Helyes válasz átlag | A profiladatoknál a helyes és helytelen válaszok átlaga megjelenik pontosan |
-
  | Név váltás | A felhasználó könnyen nevet tud változtatni |
-
  | Jelszó váltás | A felhasználó könnyen jelszót tud változtatni |
-
  | Kép beállítás lehetősége | A felhasználó könnyen egyedi profil képet tud beállítani |
-
  | Regisztráció | Új felhasználó regisztrációja működőképes |
-
  | Bejelentkezés | A felhasználó be tud lépni az oldalra |
-
  | Elérhetőség | A felhasználó csak bejelentkezés után érheti el az oldalt |
-
  | ... | ... |
 
-----
 
-###A tesztelési stratégia:
+
+### A tesztelési stratégia:
 
 Fejlesztői csapatunk folyamatosan teszteli a fejlesztett funkciókat és értesítjük egymást a fenn maradott hibák meglétéről, hogy javításuk mielőbb meg tudjuk kezdeni. A teszteléseink gyakoriságának és sokszínűségének célja, hogy minél több ember könnyebben tudja átfésülni és jelenteni a hibákat a csapat számára mely elsődleges célja, hogy minél több hiba megtalálásra leljen.
 
-----
 
-###A tesztelési jegyzőkönyv kitöltésére egy sablon:
+
+### A tesztelési jegyzőkönyv kitöltésére egy sablon:
 
 Tesztelő: Vezetéknév Keresztnév
 
 Tesztelés dátuma: Év.Hónap.Nap
 
-Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
+Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés|
+|-------|----------|-----------|--------|---------|
+például. #01 | Kép | A kép látható és változik,  | A kép változik | Nem találtam problémát.|
+|... | ... | ... | ... | ...|
 
--------|----------|-----------|--------|---------
 
-például. #01 | Kép | A kép látható és változik,  | A kép változik | Nem találtam problémát.
-
-... | ... | ... | ... | ...
-
-_____
 
 továbbit részletes tesztek: Teszt.md
 
