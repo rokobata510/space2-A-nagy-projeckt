@@ -46,4 +46,22 @@
 - A kép megtekintése és vizuális felfogása
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+1. A felhasználót a főoldal megnyitása következtében egy letisztult oldallal találják szemben magukat mely alján írási lehetősége van, tetején pedig az aktuális kép kitalálandó kép tekinthető meg.
+
+2. Az adatok oldalon lehetősége van a felhasználónak az adatainak módosítására, mint az email, jelszó és felhasználó név.
+
+3. Lehetősége van profil képet is feltölteni az oldalra regisztráltaknak.
+
+4. Regisztrálni és utána bejelentkezni
+
+5. Adatbázisban adatok tárolása a felhasználóról és az oldalon megjelenő képekről egyaránt.
+
+
+
+
+
+
+
+
+
 
