@@ -197,6 +197,9 @@ Adatbázis rendszer
 
 A program elérése, kezelése
 
+## 8. Adatbázis terv
+~folyamatban~
+
 ## 9. Implementációs terv
 - PHP és Laravel alapú oldal, 
 
