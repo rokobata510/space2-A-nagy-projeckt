@@ -12,7 +12,7 @@
 
    * Üzleti szereplő: Takács Róbert
 
-_________________ 
+_____
 
 ### 2.2 Projektmunkások és felelőségek:
 
@@ -46,7 +46,7 @@ _________________
 
        utólagos: Petrovics Tímea 
 
-_________________
+_____
 
 ### 2.3 Ütemterv:
 
@@ -68,7 +68,7 @@ _________________
 
 |Program |Tesztelés | 4 | 2 | 3 | 3 | 2 |
 
-_________________
+____
 
 ### 2.4 Mérföldkövek:
 
@@ -132,7 +132,7 @@ Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja
 
 | K11 | Átlag pont | A helyes és helytelen válaszok átlaga megjelenik. |
 
-____
+---
 
 ### Nem funkcionális követelmények
 
@@ -142,7 +142,7 @@ ____
 
 | K1 | Frontend | Letisztult és igényes külső, amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
 
-_____
+----
 
 ### Támogatott eszközök:
 
@@ -155,7 +155,7 @@ Megtekinthető okos telefonokon; tableteken; laptopokon [...]
 
 A rendszer internet hiányában is működtethető importálás megtörténte feltétele mellett. Jogosultsági körben a felhasználók között kettőt különböztetünk meg az admin és az egyszerű felhasználót. Az admin felhasználó több olyan funkciót is lát amit más felhasználók nem tekinthetnek meg és/vagy nincs joguk azon változtatásához.
 
-______
+---
 
 ### 5.2 Menühierarchiák
 
@@ -166,19 +166,19 @@ Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a f
 
 Nem igényel vásárolt szoftverkomponenst ugyanis bármilyen webböngésző és internet kapcsolat rendelkezés feltétele mellett bárki futtatni tudja.
 
-___
+---
 
 ### Hardver topológia
 
 Az oldal elektronikai eszközön(laptop, telefon) amely rendelkezik egy böngészővel könnyedén futtatható hiba nélkül.
 
-___
+---
 
 ### Fizikai alrendszerek
 
 Egy böngésző, amely az elektronikai eszközön fut abba lehetséges az oldal futtatása és megtekintése. (például: Internet Explorer, Chrome, Mozilla Firefox, Opera Browser stb.)
 
-___
+----
 
 ### Fejlesztő eszközök:
 
@@ -240,13 +240,13 @@ A program elérése, kezelése
 
  | ... | ... |
 
-____
+----
 
 ###A tesztelési stratégia:
 
 Fejlesztői csapatunk folyamatosan teszteli a fejlesztett funkciókat és értesítjük egymást a fenn maradott hibák meglétéről, hogy javításuk mielőbb meg tudjuk kezdeni. A teszteléseink gyakoriságának és sokszínűségének célja, hogy minél több ember könnyebben tudja átfésülni és jelenteni a hibákat a csapat számára mely elsődleges célja, hogy minél több hiba megtalálásra leljen.
 
-______
+----
 
 ###A tesztelési jegyzőkönyv kitöltésére egy sablon:
 
