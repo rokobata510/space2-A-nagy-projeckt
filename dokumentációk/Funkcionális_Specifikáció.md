@@ -9,3 +9,8 @@
       a hosszútávú és rendszeres visszatérésre is nagyszerű kikapcsolódás a kicsiknek és nagyoknak egyaránt. A
       fotók több órás kutató munka során lettek összeválogatva, hogy a Z (és fiatalabb) generációknak megfelelő
       valamit felismerhető formátumban jelenhessenek meg.
+
+## 2. Vágyállomrendszer leírás
+      A projektünk során csapatunk arra törekszik, hogy egy olyan weblapot hozzon létre mely képes a fiataloknak szórakoztatást nyújtani egy képfelismerős játék keretein belül. Regisztrációs felület lehetőséget ad az felhasználó pontjainak átlagának tárolására és ezáltal csoportos verseny helyzet kialakulását adja meg a felhasználók között. A háttér kialakítását figyelem felhívó szem elkápráztató színes világ adja meg míg a kép kerete és a szövegek egy egyszerűbb a háttérrel komplementer megoldást képviseltetnek. Célunk, hogy egy hasznos és társadalom számára értékes oldallal gazdagítsuk a világhálót.
+
+      
