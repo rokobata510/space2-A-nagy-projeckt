@@ -7,3 +7,7 @@ szórakozási célra szánt oldalt, amelyen vicces képeket, úgynevezett meme-k
 adott képrészlet alapján. Ezek helyes megfejtése után pontokat kapnak, melyeket gyűjtögethetnek a játékok során.
 &nbsp; A felhasználók versenyezhetnek egymással pontszámaik alapján. &nbsp; A felhasználók részéről a célja, hogy könnyen kezelhető és átlátható, egységes felület, gyorsan bármilyen eszközről elérhető legyen és csupán egy
 regisztráció szükséges hozzá.
+
+## 2. A jelenlegi helyzet leírása 
+
+
