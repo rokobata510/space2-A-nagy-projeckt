@@ -262,3 +262,5 @@ például. #01 | Kép | A kép látható és változik,  | A kép változik | Ne
 _____
 
 továbbit részletes tesztek: Teszt.md
+
+## 11. Telepítési terv
