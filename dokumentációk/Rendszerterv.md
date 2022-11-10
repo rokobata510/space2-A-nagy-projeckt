@@ -150,4 +150,4 @@ Web böngészők például: Chrome, Firefox, Opera [...]
 
 Megtekinthető okos telefonokon; tableteken; laptopokon [...] 
 
-
+## 5. Funkcionális terv
