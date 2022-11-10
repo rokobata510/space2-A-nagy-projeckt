@@ -18,6 +18,7 @@
      A 21 század fiatal generáció között nagyon elterjedtek az úgy nevezett "meme" képek. A Wikipédia fogalmazását idézve a mém egy olyan kifejezést vagy fogalmat takar, ami divatszerűen terjed embertől emberig az interneten. Kicsit leegyszerűsítve a meme egy olyan kép amihez humoros szöveges jelentést írtunk. Oldalunk központjában ezek a népszerű képek állnak. A felhasználónak ki kell találnia a populáris kép nevét és így pontokat gyűjthet. Ezzel a pontgyűjtő rendszerrel teremtjük meg a verseny helyzetet a felhasználók között ami végett arra ösztönözzük az oldalra látogatókat, hogy többszörösen is vissza térnek. Oldalunk stílusa a letisztultságra és egyszerű eleganciájával valamint azzal, hogy kerüli a hirdetések nagy mennyiségű és zavaró használatát teremti meg a felhasználóbarát környezetet.
 
 ## 5. Igényelt üzleti folyamatok modellje 
+![terv](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/terv.png)
 
 ## 6. Követelménylista
 | Id | Modul | Név | Leírás |
