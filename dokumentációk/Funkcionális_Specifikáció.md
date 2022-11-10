@@ -37,7 +37,13 @@
 | K14 | Adatbázis |  tábla(pics) | itt tárolódnak a képek |
 
 ## 6. Használati esetek
+- Egy kép megnevezésének kitalálása
 
+- Adat szerkesztés (felhasználó név, kép és email változtatás)
+
+- Regisztráció és bejelentkezés
+
+- A kép megtekintése és vizuális felfogása
 
 
 
