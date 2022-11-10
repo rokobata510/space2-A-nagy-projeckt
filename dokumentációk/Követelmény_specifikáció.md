@@ -37,6 +37,7 @@
 | K13 | Adatbázis | tábla(user) | itt tárolódnak a felhasználó adatok |
 | K14 | Adatbázis |  tábla(pics) | itt tárolódnak a képek |
 
+## 7. Fogalomtár
 
 
 
