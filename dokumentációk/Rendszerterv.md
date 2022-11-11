@@ -1,12 +1,14 @@
-# Rendszerterv
+<h1 align="center">
+Rendszerterv
+</h1>
 
 ## 1. A rendszer célja
-   A rendszer célja, hogy az oldalra ellátogató felhasználóknak(első sorban fiatalok a célközönségünk)
-   lehetőséget adjunk egy egyszerű ám, de populáris kép kitalálására valamint verseny helyzetet teremtsünk
-   a helyes és helytelen válaszok átlagának megjelenítésével az oldalra ellátogatók között. A képeket
-   különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői számára tökéletes élményt
-   nyújtson valamint könnyed felismerhetőséget adjon a felhasználók számára. A felület egyszerűségében
-   rejti a szépségét és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt mutat
+   A rendszer célja, hogy az oldalra ellátogató felhasználóknak(első sorban fiatalok a célközönségünk)    
+   lehetőséget adjunk egy egyszerű ám, de populáris kép kitalálására valamint verseny helyzetet teremtsünk       
+   a helyes és helytelen válaszok átlagának megjelenítésével az oldalra ellátogatók között. A képeket     
+   különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői számára tökéletes élményt       
+   nyújtson valamint könnyed felismerhetőséget adjon a felhasználók számára. A felület egyszerűségében       
+   rejti a szépségét és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt mutat      
    saját magának valamint a világnak.
 
 ## 2. Projektterv
@@ -92,18 +94,18 @@
 ## 3. Üzleti folyamatok modellje
 ### 3.1 Üzleti szereplők
 
-Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megtekinthető és használható
-internet kapcsolat és web böngésző feltétele mellett. Nem igényel szoftvertelepítést azonban
-böngészőnek kell, lennie a felhasználó eszközén ám ez lehet egy alapböngésző például: Internet
-Explorer is. Az a döntés, hogy milyen eszközön és milyen böngészőben nyitja meg az oldalt a felhasználó
+Az oldal regisztrációt igényel a megtekintéséhez. Bármely eszközön megtekinthető és használható       
+internet kapcsolat és web böngésző feltétele mellett. Nem igényel szoftvertelepítést azonban    
+böngészőnek kell, lennie a felhasználó eszközén ám ez lehet egy alapböngésző például: Internet      
+Explorer is. Az a döntés, hogy milyen eszközön és milyen böngészőben nyitja meg az oldalt a felhasználó        
 az teljesen rá és a meglévő eszközeire van bízva.
 
 ### 3.2 Üzleti folyamatok
 
-Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés)
-után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a
-további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára
-akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni,
+Az oldalra való regisztrációt(vagy amennyiben már van felhasználói fiókja az illetőnek bejelentkezés)        
+után egyből a képfelismerős játék kerül a felhasználó szeme elé. Felül egy menü sávban tud a        
+további opciók között váltani. Csupán három opcióra van lehetősége amivel az idősebbek számára     
+akarjuk a könnyed tájékozódást segíteni. Az opciók pedig: a képfelismerős "játékban" tartózkodni,        
 adatait módosítani/új adatokat megadni és kijelentkezni.
 
 ![terv](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/terv.png)
@@ -144,38 +146,38 @@ Megtekinthető okos telefonokon; tableteken; laptopokon [...]
 ## 5. Funkcionális terv
 ### 5.1 Rendszerszereplők
 
-A rendszer internet hiányában is működtethető importálás megtörténte feltétele mellett.
-Jogosultsági körben a felhasználók között kettőt különböztetünk meg az admin és az egyszerű
-felhasználót. Az admin felhasználó több olyan funkciót is lát amit más felhasználók nem tekinthetnek
+A rendszer internet hiányában is működtethető importálás megtörténte feltétele mellett.    
+Jogosultsági körben a felhasználók között kettőt különböztetünk meg az admin és az egyszerű      
+felhasználót. Az admin felhasználó több olyan funkciót is lát amit más felhasználók nem tekinthetnek      
 meg és/vagy nincs joguk azon változtatásához.
 
 
 
 ### 5.2 Menühierarchiák
 
-Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a felhasználót
-a főoldal fogadja, ahol megtalálja magát a kép felismerős rendszert valamint innen tud
-átlépni más menü pontokba is. Ilyen az adatait tartalmazó menüpont is ahol testre szabhatja
+Az oldalunkon egy egyszerű menürendszert alkalmazunk. Bejelentkezés után a felhasználót    
+a főoldal fogadja, ahol megtalálja magát a kép felismerős rendszert valamint innen tud     
+átlépni más menü pontokba is. Ilyen az adatait tartalmazó menüpont is ahol testre szabhatja    
 felhasználói képét valamint nevet és jelszót változtathat.
 
 ## 6. Fizikai környezet
 ### Vásárolt szoftverkomponensek és külső rendszerek
 
-Nem igényel vásárolt szoftverkomponenst ugyanis bármilyen webböngésző és internet kapcsolat
+Nem igényel vásárolt szoftverkomponenst ugyanis bármilyen webböngésző és internet kapcsolat    
 rendelkezés feltétele mellett bárki futtatni tudja.
 
 
 
 ### Hardver topológia
 
-Az oldal elektronikai eszközön(laptop, telefon) amely rendelkezik egy böngészővel könnyedén
+Az oldal elektronikai eszközön(laptop, telefon) amely rendelkezik egy böngészővel könnyedén      
 futtatható hiba nélkül.
 
 
 
 ### Fizikai alrendszerek
 
-Egy böngésző, amely az elektronikai eszközön fut abba lehetséges az oldal futtatása
+Egy böngésző, amely az elektronikai eszközön fut abba lehetséges az oldal futtatása      
 és megtekintése. (például: Internet Explorer, Chrome, Mozilla Firefox, Opera Browser stb.)
 
 
@@ -230,9 +232,9 @@ A program elérése, kezelése
 
 ### A tesztelési stratégia:
 
-Fejlesztői csapatunk folyamatosan teszteli a fejlesztett funkciókat és értesítjük egymást a
-fenn maradott hibák meglétéről, hogy javításuk mielőbb meg tudjuk kezdeni. A teszteléseink
-gyakoriságának és sokszínűségének célja, hogy minél több ember könnyebben tudja átfésülni és
+Fejlesztői csapatunk folyamatosan teszteli a fejlesztett funkciókat és értesítjük egymást a   
+fenn maradott hibák meglétéről, hogy javításuk mielőbb meg tudjuk kezdeni. A teszteléseink       
+gyakoriságának és sokszínűségének célja, hogy minél több ember könnyebben tudja átfésülni és     
 jelenteni a hibákat a csapat számára mely elsődleges célja, hogy minél több hiba megtalálásra leljen.
 
 
@@ -253,8 +255,8 @@ például. #01 | Kép | A kép látható és változik,  | A kép változik | Ne
 továbbit részletes tesztek: Teszt.md
 
 ## 11. Telepítési terv
-A programunk futtatásához csupán egy webböngésző szükségeltetik amely a legtöbb informatikai
-eszközön alapból megtalálható. Ez által nem igényel sem fizikai sem pedig szoftver telepítést ezzel
+A programunk futtatásához csupán egy webböngésző szükségeltetik amely a legtöbb informatikai    
+eszközön alapból megtalálható. Ez által nem igényel sem fizikai sem pedig szoftver telepítést ezzel     
 is felhasználó baráttá téve az oldalt.
 
 ## 12. Karbantartási terv
