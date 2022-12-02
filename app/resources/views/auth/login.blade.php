@@ -13,33 +13,41 @@
 <body>
     <x-guest-layout>
         <x-auth-card>
-           <!-- <x-slot name="logo">
+           <x-slot name="logo">
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
                 </a>
-            </x-slot>-->
+            </x-slot>
             <!-- Session Status -->
-          <!--   <x-auth-session-status class="mb-4" :status="session('status')" />
--->
+          <x-auth-session-status class="mb-4" :status="session('status')" />
+
             <form method="POST" action="{{ route('login') }}">
                 @csrf
 
+                <h1 style="font-size: 40px" class="text-pink-600
+                            text-center font-bold md:font-Inter ..." >Welcome again</h1>
+                        <p class="text-white"> n </p>
+                        <p class="text-white"> o </p>
+
+
                 <!-- Email Address -->
                 <div>
-                    <x-input-label for="email" :value="__('Email')" />
-                    <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                    <x-input-label style="font-size: 18px" class="md:font-Inter ..." for="email" :value="__('Email')" />
+                    <x-text-input id="email" class="block mt-1 w-full border-none ..." type="email" name="email" :value="old('email')" required autofocus />
+                    <hr class="my-0  h-px bg-gray-200 rounded border-0 dark:bg-indigo-900">
                     <x-input-error :messages="$errors->get('email')" class="mt-2" />
                 </div>
 
                 <!-- Password -->
                 <div class="mt-4">
-                    <x-input-label for="password" :value="__('Password')" />
+                    <x-input-label style="font-size: 18px" class="md:font-Inter ..." for="password" :value="__('Password')" />
 
-                    <x-text-input id="password" class="block mt-1 w-full"
+                    <x-text-input id="password" class="block mt-1 w-full border-none dark:bg-white ..."
                                     type="password"
                                     name="password"
                                     required autocomplete="current-password" />
 
+                     <hr class="my-0  h-px bg-gray-200 rounded border-0 dark:bg-indigo-900">
                     <x-input-error :messages="$errors->get('password')" class="mt-2" />
                 </div>
 
