@@ -1,3 +1,8 @@
+<div class="p-4">
+                        <div class="p-4 text-2xl text-white rounded-lg shadow bg-gradient-to-r from-black to-pink-600">
+                            <h1 class="pl-2 font-bold">asd</h1>
+                        </div>
+                    </div>
 <div class="flex flex-wrap">
                         <div class="w-full p-6 md:w-1/2 xl:w-1/3">
                             <!--Metric Card-->

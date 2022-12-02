@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/admin/{tab?}', function ($tab) {
+    return view('layouts/admin');
+})->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/admin', function () {
     return view('layouts/admin');
 })->middleware(['auth', 'verified'])->name('dashboard');

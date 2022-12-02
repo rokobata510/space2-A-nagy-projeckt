@@ -30,13 +30,19 @@
             @include('components.side-nav')
             <section>
                 <div id="main" class="flex-1 pb-24 main-content md:pb-5">
-
-                    <div class="px-4 ">
-                        <div class="p-4 text-2xl text-white rounded-lg shadow bg-gradient-to-r from-black to-pink-600">
-                            <h1 class="pl-2 font-bold">asd</h1>
-                        </div>
-                    </div>
-                    @include('components.metric-cards')
+                @switch(Route::getCurrentRoute()->tab)
+                    @case('users')
+                        <x-metric-cards/>
+                        @break
+                
+                    @case('images')
+                        <x-image-list/>
+                        @break
+                
+                    @default
+                        
+                @endswitch
+                    
                 </div>
             </section>
         </div>
