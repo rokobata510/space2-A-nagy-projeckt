@@ -10,7 +10,8 @@ $conn = new mysqli($servername, $username, $password,$database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT asd FROM image";
+$url_arr = [];
+$sql = "SELECT url FROM image";
 $result = $conn->query($sql);
 //ha ad vissza valamit a $sql lekérdezés, akkor $resultimg lesz az
 //tesztelés idejére csak egy visszaadott képet kezel
@@ -18,12 +19,17 @@ if ($result->num_rows > 0)
 {
 	while($row = $result->fetch_assoc()) 
 	{
-		$resultimg = $row["asd"];
+		array_push($url_arr, $row["url"]);
 	}
 } else {
 	echo "0 results";
 }
 $conn->close();
+
+//random choice url_arr-bol
+$i = rand(0, sizeof($url_arr)-1);
+$resultimg = $url_arr[$i];
+
 //$resultimg egy tárolt url string
 //kivesszük az értékét
 //képet csinálunk a stringből
