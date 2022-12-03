@@ -1,17 +1,18 @@
 <nav x-data="{ open: false }" class="">
     <!-- Primary Navigation Menu -->
-    <div class="sm:px-6 lg:px-8 bg-neutral-900">
+    <div class="border-b-2 border-pink-800 sm:px-6 lg:px-8 bg-neutral-900">
+
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="flex items-center shrink-0">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block w-auto text-gray-800 fill-current h-9" />
+                        <x-application-logo class="block w-auto text-pink-600 fill-current h-9" />
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex ">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>

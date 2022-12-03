@@ -28,18 +28,18 @@
     @endif
         <div class="flex flex-col md:flex-row">
             @include('components.side-nav')
-            <section>
-                <div id="main" class="flex-1 pb-24 main-content md:pb-5">
+            <section class="w-full">
+                <div id="main" class="w-full">
                 @switch(Route::getCurrentRoute()->tab)
                     @case('users')
-                        <x-metric-cards/>
+                        <x-users/>
                         @break
                 
                     @case('images')
                         <x-image-list/>
                         @break
                     @case('new')
-                        <x-image-list/>
+                        <x-new-admin/>
                         @break
                 
                     @default
