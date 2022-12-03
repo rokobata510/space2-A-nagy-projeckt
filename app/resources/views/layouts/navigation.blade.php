@@ -10,7 +10,7 @@
 
 
 
-                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-8 border border-transparent
+                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-7 border border-transparent
                     text-sm leading-4 font-medium rounded-md text-white bg-neutral-900
                      hover:text-black hover:bg-pink-600 focus:outline-none transition
                      ease-in-out duration-150"
@@ -18,28 +18,28 @@
                             {!! "Főoldal" !!}
                     </a>
 
-                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-8 border border-transparent
+                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-7 border border-transparent
                     text-sm leading-4 font-medium rounded-md text-white bg-neutral-900
                      hover:text-black hover:bg-pink-600 focus:outline-none transition
                      ease-in-out duration-150"
                     href="/profile">
                             {!! "Profil" !!}
                     </a>
+
                      <form method="POST" action="{{ route('logout') }}">
                             @csrf
                             <a :href="route('logout')"
                                     onclick="event.preventDefault();
                                                 this.closest('form').submit();"
                             style="font-size: 19px"
-                            class="inline-flex items-center px-14 py-6 border border-transparent text-sm
+                            class="inline-flex items-center px-14 py-5 border border-transparent text-sm
                             leading-4 font-medium rounded-md text-white bg-neutral-900
                             hover:text-black hover:bg-pink-600 focus:outline-none transition
                             ease-in-out duration-150">
                                 {{ __('Kijelentkezés') }}
-                     </a>
+                            </a>
                         </form>
 
-                </div>
             </div>
             <div>{{ Auth::user()->name }}</div>
 
