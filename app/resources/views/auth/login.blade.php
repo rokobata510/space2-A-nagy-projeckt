@@ -71,7 +71,7 @@
                             {!! ' <br> Forgot your password?' !!}
                         </a>
                     @endif
-                        <p style="font-size: 2px" class="text-white">aasd</p>
+                        <p style="font-size: 2px" class="text-white">:D</p>
                 <a class="line-height: 150% underline text-sm text-blue-900 hover:text-gray-900 rounded-md focus:outline-none
                                     focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="/register">
                             {!! "  Don't have an account? Register!" !!}

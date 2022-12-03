@@ -18,6 +18,10 @@
             <img class="min-w-full flex flex-col items-center" src="{{url('/logo.png')}}" alt="logo">
 <hr>
 <br>
+<h1 style="font-size: 40px " class="text-pink-600
+                            text-center font-bold md:font-Inter  ..." >Forgot-password</h1>
+                        <p style="font: 1px" class="text-white">  ♥♥ PLS 2 ★°*ﾟ </p>
+
 
             <!-- Session Status -->
             <x-auth-session-status class="mb-4" :status="session('status')" />
