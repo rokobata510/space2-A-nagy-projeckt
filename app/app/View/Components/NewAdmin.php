@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class MetricCards extends Component
+class NewAdmin extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class MetricCards extends Component
      */
     public function render()
     {
-        return view('components.metric-cards');
+        return view('components.new-admin');
     }
 }

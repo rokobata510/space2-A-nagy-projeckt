@@ -38,6 +38,9 @@
                     @case('images')
                         <x-image-list/>
                         @break
+                    @case('new')
+                        <x-image-list/>
+                        @break
                 
                     @default
                         

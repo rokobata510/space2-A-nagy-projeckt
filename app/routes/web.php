@@ -23,7 +23,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/admin/{tab?}', function ($tab) {
+Route::get('/admin/{tab?}', function ($tab="users") {
     return view('layouts/admin');
 })->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/admin', function () {

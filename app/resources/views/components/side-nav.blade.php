@@ -14,7 +14,11 @@
                         <span class="block pb-1 text-xs text-pink-600 md:pb-0 md:text-base md:inline-block">Képek</span>
                     </a>
                 </li>
-                
+                <li class="flex-1 mr-3">
+                    <a href="{{ url('/admin/new') }}" class="block py-1 pl-1 text-pink-600 align-middle border-b-2 border-pink-600 o-underline md:py-3 hover:text-black">
+                        <span class="block pb-1 text-xs text-pink-600 md:pb-0 md:text-base md:inline-block">Új Admin</span>
+                    </a>
+                </li>
             </ul>
         </div>
 
