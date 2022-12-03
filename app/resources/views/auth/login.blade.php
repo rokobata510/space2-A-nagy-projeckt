@@ -23,15 +23,14 @@
             <form method="POST" action="{{ route('login') }}">
                 @csrf
 
-                <h1 style="font-size: 40px " class="text-pink-600
+                <h1 style="font-size: 46px " class="text-pink-600
                             text-center font-bold md:font-Inter  ..." >Welcome again</h1>
-                        <p style="font: 3px" class="text-white"> :¨·.·¨: </p>
-                        <p style="font: 3px" class="text-white">  `·. PLS 2 ★°*ﾟ </p>
+                        <p style="font: 3px" class="text-white">  ♥♥ PLS 2 ★°*ﾟ </p>
 
 
                 <!-- Email Address -->
                 <div>
-                    <x-input-label style="font-size: 19px" class="md:font-Inter text-blue-900 ..." for="email" :value="__('Email')" />
+                    <x-input-label style="font-size: 17px" class="md:font-Inter text-blue-900 ..." for="email" :value="__('Email')" />
                     <x-text-input id="email" class="text-blue-900 block mt-1 w-full border-none ..." type="email" name="email" :value="old('email')" required autofocus />
                     <hr class="my-0  h-px bg-gray-200 rounded border-0 dark:bg-indigo-900">
                     <x-input-error :messages="$errors->get('email')" class="mt-2" />
@@ -39,7 +38,7 @@
 
                 <!-- Password -->
                 <div class="mt-4">
-                    <x-input-label style="font-size: 19px" class="md:font-Inter text-blue-900 ..." for="password" :value="__('Password')" />
+                    <x-input-label style="font-size: 17px" class="md:font-Inter text-blue-900 ..." for="password" :value="__('Password')" />
                     <p class="stroke-1 ..."></p>
                     <x-text-input id="password" class=" text-blue-900 block mt-1 w-full border-none dark:bg-white ..."
                                     type="password"
@@ -59,7 +58,7 @@
                 </div>
                 <br>
                 <div class=" min-w-full flex flex-col items-center">
-                    <x-primary-button style="font-size: 18px " class="py-4 px-9 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
+                    <x-primary-button style="font-size: 17px " class="py-4 px-9 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
                     focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75
                     ml-3  drop-shadow-lg border-indigo-900-50%...">
                         {{ __('Log in') }}
@@ -72,6 +71,11 @@
                             {!! ' <br> Forgot your password?' !!}
                         </a>
                     @endif
+                        <p style="font-size: 2px" class="text-white">aasd</p>
+                <a class="line-height: 150% underline text-sm text-blue-900 hover:text-gray-900 rounded-md focus:outline-none
+                                    focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="/register">
+                            {!! "  Don't have an account? Register!" !!}
+                        </a>
                 </div>
             </form>
         </x-auth-card>
