@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Forgot-password</title>
+    <title>Elfelejtett jelszó</title>
 </head>
 <body>
     <x-guest-layout>
@@ -19,7 +19,7 @@
 <hr>
 <br>
 <h1 style="font-size: 40px " class="text-pink-600
-                            text-center font-bold md:font-Inter  ..." >Forgot-password</h1>
+                            text-center font-bold md:font-Inter  ..." >Elfelejtett jelszó</h1>
                         <p style="font: 1px" class="text-white">  ♥♥ PLS 2 ★°*ﾟ </p>
 
 

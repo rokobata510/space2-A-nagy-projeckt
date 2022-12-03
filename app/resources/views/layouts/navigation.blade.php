@@ -10,24 +10,33 @@
 
 
 
-                    <a class="inline-flex items-center px-8 py-8 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-black dark:bg-black hover:text-black dark:hover:text-black focus:outline-none transition ease-in-out duration-150"
+                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-8 border border-transparent
+                    text-sm leading-4 font-medium rounded-md text-white bg-neutral-900
+                     hover:text-black hover:bg-pink-600 focus:outline-none transition
+                     ease-in-out duration-150"
                     href="/dashboard">
-                            {!! "Home" !!}
+                            {!! "Főoldal" !!}
                     </a>
 
-                    <a class="inline-flex items-center px-8 py-8 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-black dark:bg-black hover:text-black dark:hover:text-black focus:outline-none transition ease-in-out duration-150"
+                    <a style="font-size: 19px" class="inline-flex items-center px-14 py-8 border border-transparent
+                    text-sm leading-4 font-medium rounded-md text-white bg-neutral-900
+                     hover:text-black hover:bg-pink-600 focus:outline-none transition
+                     ease-in-out duration-150"
                     href="/profile">
-                            {!! "Profile" !!}
+                            {!! "Profil" !!}
                     </a>
                      <form method="POST" action="{{ route('logout') }}">
                             @csrf
-
-                            <x-dropdown-link :href="route('logout')"
+                            <a :href="route('logout')"
                                     onclick="event.preventDefault();
                                                 this.closest('form').submit();"
-                            class="inline-flex items-center px-14 py-4 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-black dark:bg-black hover:text-black dark:hover:text-black focus:outline-none transition ease-in-out duration-150">
-                                {{ __('LogOut') }}
-                            </x-dropdown-link>
+                            style="font-size: 19px"
+                            class="inline-flex items-center px-14 py-6 border border-transparent text-sm
+                            leading-4 font-medium rounded-md text-white bg-neutral-900
+                            hover:text-black hover:bg-pink-600 focus:outline-none transition
+                            ease-in-out duration-150">
+                                {{ __('Kijelentkezés') }}
+                     </a>
                         </form>
 
                 </div>
