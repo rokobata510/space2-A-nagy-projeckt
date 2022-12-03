@@ -24,7 +24,7 @@
                 @csrf
 
                 <h1 style="font-size: 46px " class="text-pink-600
-                            text-center font-bold md:font-Inter  ..." >Welcome again</h1>
+                            text-center font-bold md:font-Inter  ..." >Üdvözlet újra</h1>
                         <p style="font: 3px" class="text-white">  ♥♥ PLS 2 ★°*ﾟ </p>
 
 
@@ -38,7 +38,7 @@
 
                 <!-- Password -->
                 <div class="mt-4">
-                    <x-input-label style="font-size: 17px" class="md:font-Inter text-blue-900 ..." for="password" :value="__('Password')" />
+                    <x-input-label style="font-size: 17px" class="md:font-Inter text-blue-900 ..." for="password" :value="__('Jelszó')" />
                     <p class="stroke-1 ..."></p>
                     <x-text-input id="password" class=" text-blue-900 block mt-1 w-full border-none dark:bg-white ..."
                                     type="password"
@@ -53,7 +53,7 @@
                 <div class="block mt-4">
                     <label for="remember_me" class="flex items-center ">
                         <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-                        <span  class="ml-2 text-sm text-blue-900 line-height: 150%">{{ __('Remember me') }}</span>
+                        <span  class="ml-2 text-sm text-blue-900 line-height: 150%">{{ __('Emlékezz rám') }}</span>
                     </label>
                 </div>
                 <br>
@@ -61,20 +61,20 @@
                     <x-primary-button style="font-size: 17px " class="py-4 px-9 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
                     focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75
                     ml-3  drop-shadow-lg border-indigo-900-50%...">
-                        {{ __('Log in') }}
+                        {{ __('Bejelentkezés') }}
                     </x-primary-button>
 
                     <hr class="my-0  h-px bg-gray-200 rounded border-0 dark:bg-indigo-900-50%">
                     @if (Route::has('password.request'))
                         <a class="line-height: 150% underline text-sm text-blue-900 hover:text-gray-900 rounded-md focus:outline-none
                                     focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
-                            {!! ' <br> Forgot your password?' !!}
+                            {!! ' <br> Elfelejtetted a jelszót?' !!}
                         </a>
                     @endif
                         <p style="font-size: 2px" class="text-white">:D</p>
                 <a class="line-height: 150% underline text-sm text-blue-900 hover:text-gray-900 rounded-md focus:outline-none
                                     focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="/register">
-                            {!! "  Don't have an account? Register!" !!}
+                            {!! "  Nincs még felhasználód? Regisztrálj!" !!}
                         </a>
                 </div>
             </form>

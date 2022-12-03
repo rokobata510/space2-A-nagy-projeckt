@@ -15,7 +15,7 @@
                      fill-current " />
                 </a>
             </x-slot>
-            <img class="min-h-full flex flex-col items-center" src="{{url('/minilogo.png')}}" alt="logo">
+            <img class="min-h-full flex flex-col items-center" src="{{url('/logo.png')}}" alt="logo">
 <hr>
 <br>
 <h1 style="font-size: 40px " class="text-pink-600
@@ -37,13 +37,13 @@
                         <hr class="my-0  h-px text-blue-900 rounded border-0 dark:bg-indigo-900">
                         <br>
                 </div>
-                <div class="flex items-center justify-end mt-4">
+                <div class="grid place-content-start md:place-content-center">
                     <hr>
                     <x-primary-button style="font-size: 14px " class="py-4 px-9 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
                     focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75
                     ml-3  drop-shadow-lg border-indigo-900-50%...">
 
-                        {{ __('Email Password Reset Link') }}
+                        {{ __('Jelszó Küldése Újra') }}
                     </x-primary-button>
                 </div>
             </form>
