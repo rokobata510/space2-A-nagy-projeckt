@@ -9,7 +9,9 @@
         </p>
     </header>
 
-    <x-danger-button
+    <x-danger-button style="font-size: 15px " class="py-2 px-4 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
+    focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75
+    ml-3  drop-shadow-lg border-indigo-900-50%..."
         x-data=""
         x-on:click.prevent="$dispatch('open-modal', 'confirm-user-deletion')"
     >{{ __('Felhasználó törlése') }}</x-danger-button>
@@ -41,11 +43,11 @@
 
             <div class="mt-6 flex justify-end">
                 <x-secondary-button x-on:click="$dispatch('close')">
-                    {{ __('Cancel') }}
+                    {{ __('Vissza') }}
                 </x-secondary-button>
 
                 <x-danger-button class="ml-3">
-                    {{ __('Delete Account') }}
+                    {{ __('Felhasználó törlése') }}
                 </x-danger-button>
             </div>
         </form>
