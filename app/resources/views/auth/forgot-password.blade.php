@@ -15,7 +15,7 @@
                      fill-current " />
                 </a>
             </x-slot>
-            <img class="min-w-full flex flex-col items-center" src="{{url('/logo.png')}}" alt="logo">
+            <img class="min-h-full flex flex-col items-center" src="{{url('/minilogo.png')}}" alt="logo">
 <hr>
 <br>
 <h1 style="font-size: 40px " class="text-pink-600

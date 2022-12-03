@@ -15,7 +15,7 @@
                      fill-current " />
                 </a>
             </x-slot>
-            <img class="min-w-full flex flex-col items-center" src="{{url('/logo.png')}}" alt="logo">
+        <img class="min-w-full flex flex-col items-center" src="{{url('/logo.png')}}" alt="logo">
 <hr>
             <!-- Session Status -->
           <x-auth-session-status class="mb-4" :status="session('status')" />
