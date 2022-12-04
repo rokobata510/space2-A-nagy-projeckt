@@ -2,7 +2,7 @@
 
 Teszteléseket végezte: Vezetéknév Keresztnév
 
-Operációs rendszer: OS
+Operációs rendszer: Windows
 
 Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és eredményei, illetve időpontjai (Alfa, Béta és Végleges verzió).
 
@@ -10,7 +10,13 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.10.20. | Funkcionális specifikáció helyesírási hiba mentes | Sikertelen | Több helyesírási hiba találva |
+| Teszt #2 | 2022.10.20. | Követelmény specifikáció helyesírási hiba mentes | Sikeres | Nincs helyesírási hiba találva |
+| Teszt #3 | 2022.10.22. | Rendszerterv helyesírási hiba mentes | Sikeres | Nincs helyesírási hiba találva |
+| Teszt #4 | 2022.10.25. | Regisztrációs oldal: név mező hiba mentesen működik | Sikeres | Nincs hiba |
+| Teszt #5 | 2022.10.26. | Regisztrációs oldal: a regisztráció gomb működik  | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.10.30. | Bejelentkezés oldal: "elfelejtetted a jelszót gomb" működik | Sikeres | Nincs hiba  |
+| Teszt #7 | 2022.10.31. | Elfelejtett jelszó oldal: Logó látható | Sikertelen | A logó elcsúszik a képernyőn |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
