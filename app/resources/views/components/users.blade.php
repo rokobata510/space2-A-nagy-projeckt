@@ -1,8 +1,11 @@
 
 <?php
+use App\Models\User;
+
     use Illuminate\Support\Facades\DB;
 
     $users = DB::table('users')->get();
+    
 ?>
 
 <div class="flex flex-col m-4">
@@ -38,6 +41,8 @@
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->email}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->created_at}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->password}}</td>
+                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800"><button type="button" onclick="window.location='{{url("admin/users/delete/$user->id")}}'">Button</button></td>
+
                             </tr>
                         @endforeach
                         </tr>

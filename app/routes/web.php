@@ -3,6 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +28,14 @@ Route::get('/dashboard', function () {
 
 Route::get('/admin/{tab?}', function ($tab="users") {
     return view('layouts/admin');
+})->middleware(['auth', 'verified'])->name('admin');
+
+Route::get('/admin/users/delete/{id?}', function ($id="null") {
+    $user = User::findOrFail($id);
+    $user->delete();
+    return Redirect::route('admin')->with('global', 'Your account has been deleted!');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
