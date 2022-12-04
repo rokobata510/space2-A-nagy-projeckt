@@ -1,6 +1,6 @@
 # Tesztjegyzőkönyv
 
-Teszteléseket végezte: Vezetéknév Keresztnév
+Teszteléseket végezte: Petrovics Tímea
 
 Operációs rendszer: Windows
 
@@ -26,7 +26,16 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal | Sikertelen
+| ... |
+| Teszt #2 | 2022.11.10. | Főoldal: címsáv: profile | ... | ... |
+| Teszt #3 | 2022.11.11. | Főoldal: címsáv: logout | ... | ... |
+| Teszt #4 | 2022.11.14. | Főoldal: | ... | ... |
+| Teszt #5 | 2022.11.17. | Főoldal: | ... | ... |
+| Teszt #6 | 2022.11.28. | Főoldal: | ... | ... |
+| Teszt #7 | 2022.11.28. | Profil: | ... | ... |
+| Teszt #8 | 2022.11.30. | Profil: | ... | ... |
+| Teszt #9 | 2022.12.05. | Logout: | ... | ... |
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
