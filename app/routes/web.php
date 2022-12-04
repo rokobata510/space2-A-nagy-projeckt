@@ -6,6 +6,7 @@ use App\Http\Controllers\CustomAuthController;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,12 @@ Route::get('/admin/users/delete/{id?}', function ($id="null") {
     $user->delete();
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/admin/new/submit/{name}/{pass}', function ($tab="users") {
+    DB::insert('insert into admins (name, password) values (?, ?)', [1, 'Dayle']);
+
+    return view('layouts/admin/new');
+})->middleware(['auth', 'verified']);
 
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
