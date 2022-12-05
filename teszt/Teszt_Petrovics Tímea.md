@@ -60,6 +60,11 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Teszt #3 | 2022.12.01. | Minden profil adat szerkezthető | Sikeres | Nincs hiba |
 | Teszt #4 | 2022.12.01. | Az oldal kinézete mindenhol jól tölt be | Sikeres | Nincs hiba |
 
+### Végleges teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| ...  | ... | ... | ... | ... | ... |
+
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
 Átadásra készen áll a megrendelőnek.
