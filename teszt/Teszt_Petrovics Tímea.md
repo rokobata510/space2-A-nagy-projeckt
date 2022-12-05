@@ -36,12 +36,11 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 | Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb megjelenik | Sikeres | Nincs hiba  |
 | Teszt #2 | 2022.11.02. | Főoldal: címsáv: profile megjelenik | Sikeres | Nincs hiba |
 | Teszt #3 | 2022.11.02. | Főoldal: címsáv: kijelentkezés megjelenik | Sikeres | Nincs hiba |
-| Teszt #4 | 2022.11.14. | Főoldal: logó megjelenik  | Sikertelen | Rossz minőségbe jelent meg |
-| Teszt #5 | 2022.11.17. | Főoldal: | ... | ... |
-| Teszt #6 | 2022.11.28. | Főoldal: | ... | ... |
-| Teszt #7 | 2022.11.28. | Profil: | ... | ... |
-| Teszt #8 | 2022.11.30. | Profil: | ... | ... |
-| Teszt #9 | 2022.12.05. | Logout: | ... | ... |
+| Teszt #4 | 2022.11.14. | Főoldal: címsáv: logó megjelenik  | Sikertelen | Rossz minőségbe jelent meg |
+| Teszt #5 | 2022.11.17. | Profil: Profil információk név váltás lehteséges | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.11.28. | Profil: Profil információk email váltás lehetséges | Sikeres | Nincs hiba |
+| Teszt #7 | 2022.11.28. | Profil: a tervezett külalak jelenik meg | Sikeres | Nincs hiba |
+| Teszt #8 | 2022.11.30. | Kijelentkezés: gombra kattintás után kijelentkezik a profilból | Sikeres | Nincs hiba |
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
