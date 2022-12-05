@@ -22,15 +22,21 @@ Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenf
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
 
 Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzésre.
+
+### Alfa teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #1 | 2022.10.20. | 2022.10.21. | Funkcionális specifikáció helyesírási hiba mentes | Hiba javítva | Helyesírás ellenőrizve és javítva |
+| Teszt #7 | 2022.10.31. | 2022.10.31. | Elfelejtett jelszó oldal: Logó látható | Hiba javítva | A logó pozíciójának és méretének fixálása |
+
 ## Béta teszt
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal | Sikertelen
-| ... |
-| Teszt #2 | 2022.11.10. | Főoldal: címsáv: profile | ... | ... |
-| Teszt #3 | 2022.11.11. | Főoldal: címsáv: logout | ... | ... |
-| Teszt #4 | 2022.11.14. | Főoldal: | ... | ... |
+| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb megjelenik | Sikeres | Nincs hiba  |
+| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profile megjelenik | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.11.02. | Főoldal: címsáv: kijelentkezés megjelenik | Sikeres | Nincs hiba |
+| Teszt #4 | 2022.11.14. | Főoldal: logó megjelenik  | Sikertelen | Rossz minőségbe jelent meg |
 | Teszt #5 | 2022.11.17. | Főoldal: | ... | ... |
 | Teszt #6 | 2022.11.28. | Főoldal: | ... | ... |
 | Teszt #7 | 2022.11.28. | Profil: | ... | ... |
