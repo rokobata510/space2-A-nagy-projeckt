@@ -7,6 +7,9 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Symfony\Component\Console\Input\Input;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,12 +38,11 @@ Route::get('/admin/users/delete/{id?}', function ($id="null") {
     $user = User::findOrFail($id);
     $user->delete();
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware(['auth', 'verified']);
 
-Route::get('/admin/new/submit/{name}/{pass}', function ($tab="users") {
-    DB::insert('insert into admins (name, password) values (?, ?)', [1, 'Dayle']);
-
-    return view('layouts/admin/new');
+Route::get('/admin/new/submit', function (Request $request) {
+    DB::insert("insert into admins (name, password) values (?,?)", [$request->input('name'), Hash::make($request->input('password'))]);
+    return view('/layouts/admin', ["tab" => "new"]);
 })->middleware(['auth', 'verified']);
 
 

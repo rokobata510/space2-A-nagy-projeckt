@@ -1,11 +1,11 @@
 <?php
     use Illuminate\Support\Facades\DB;
-
+    use Illuminate\Http\Request;
 
 ?>
 <div class="w-full max-w-xl mx-auto my-5 overflow-hidden border border-pink-800 shadow-xl px-14 py-14 sm:rounded-lg bg-gradient-to-r from-black to-pink-500">
     <div class="flex pb-5 mx-auto text-3xl text-pink-500">Új Admin létrehozása</div>
-    <form method="POST" action="http://localhost:8000/admin/new/submit/{{request()->input('name')}}/{{ Hash::make(request()->input('password'))}}">
+    <form method="post" action="http://localhost:8000/admin/new/submit">
         <input type="hidden" name="_token" value="fCdMi6bc7hthIHn50TcpAmem8nN2kkcAPpNji8qc">
         <!-- Name -->
         <div>
