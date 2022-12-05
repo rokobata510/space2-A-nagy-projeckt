@@ -45,6 +45,11 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
 
+### Béta teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #4  |  2022.11.14. |  2022.11.16. | Főoldal: címsáv: logó megjelenik | Hiba javítva | Minőség és méret javítva |
+
 A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
 
 ## Végleges teszt
