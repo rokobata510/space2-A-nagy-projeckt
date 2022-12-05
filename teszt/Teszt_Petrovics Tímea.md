@@ -45,17 +45,20 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
 
+A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
+
 ### Béta teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
 | Teszt #4  |  2022.11.14. |  2022.11.16. | Főoldal: címsáv: logó megjelenik | Hiba javítva | Minőség és méret javítva |
 
-A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
-
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.11.30. | A kép változik minden helyes tipp után | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.11.30. | A helyes és helytelen válaszok megtekinthetőek | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.12.01. | Minden profil adat szerkezthető | Sikeres | Nincs hiba |
+| Teszt #4 | 2022.12.01. | Az oldal kinézete mindenhol jól tölt be | Sikeres | Nincs hiba |
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
