@@ -13,7 +13,7 @@
 
 <body class="font-sans leading-normal tracking-normal text-pink-200 bg-neutral-800">
 
-    
+
 
     <main>
     @include('layouts.navigation')
@@ -34,18 +34,18 @@
                     @case('users')
                         <x-users/>
                         @break
-                
+
                     @case('images')
                         <x-image-list/>
                         @break
                     @case('new')
                         <x-new-admin/>
                         @break
-                
+
                     @default
-                        
+
                 @endswitch
-                    
+
                 </div>
             </section>
         </div>

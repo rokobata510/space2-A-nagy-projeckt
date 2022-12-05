@@ -19,7 +19,7 @@
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
+                <header class="bg-cyan-500 shadow">
                     <div class="py-6 sm:px-6 lg:px-8 bg-neutral-800">
                         {{ $header }}
                     </div>

@@ -1,15 +1,14 @@
 <section class="space-y-6">
     <header>
-        <h2 class="text-lg font-medium text-gray-900">
+        <h2 style="font-size: 28px" class="text-lg font-medium text-pink-600">
             {{ __('Felhasználó törlése') }}
         </h2>
-
-        <p class="mt-1 text-sm text-gray-600">
+        <p style="font-size: 15px" class="mt-1 text-sm text-pink-800">
             {{ __('Figyelem! Ha törli a felhasználót akkor az adatok örökre elvesznek! Kérem töltse le a menteni kívánt adatait előtte. ') }}
         </p>
     </header>
 
-    <x-danger-button style="font-size: 15px " class="py-2 px-4 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-black
+    <x-danger-button style="font-size: 15px " class="py-2 px-4 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-500
     focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75
     ml-3  drop-shadow-lg border-indigo-900-50%..."
         x-data=""
