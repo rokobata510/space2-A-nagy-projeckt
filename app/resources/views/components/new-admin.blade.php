@@ -15,13 +15,7 @@
             <input class="block w-full mt-1 rounded-md shadow-sm border-neutral-300 focus:border-pink-800 focus:ring-pink-700" id="name" type="text" name="name" required="required" autofocus="autofocus">
         </div>
 
-        <!-- Email Address -->
-        <div class="mt-4">
-            <label class="block text-sm font-medium text-pink-500" for="email">
-                Email
-            </label>
-            <input class="block w-full mt-1 rounded-md shadow-sm border-neutral-300 focus:border-pink-800 focus:ring-pink-700" id="email" type="email" name="email" required="required">
-        </div>
+
 
         <!-- Password -->
         <div class="mt-4">
