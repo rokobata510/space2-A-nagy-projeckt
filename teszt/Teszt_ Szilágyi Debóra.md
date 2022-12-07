@@ -43,6 +43,11 @@ A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
 
 A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
 
+### Béta teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #2 | 2022.11.03. | 2022.11.04. | Főoldal: tippelés sáv működik | Hiba javítva | Értékadás javítva |
+
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
