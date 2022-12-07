@@ -51,7 +51,9 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.12.01. | A kép változatos képkockákat dobál fel | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.12.02. | A feliratok mindenhol Magyarul vannak | Sikertelen | Vannak Angol feliratom még |
+| Teszt #3 | 2022.12.02. | Az oldal telefonos nézetbe is szépen látható | Sikertelen | Javításra szorul a reszponzív nézet |
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
