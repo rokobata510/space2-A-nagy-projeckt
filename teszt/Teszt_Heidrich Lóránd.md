@@ -22,6 +22,13 @@ Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenf
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
 
 Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzésre.
+
+### Alfa teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #1 | 2022.10.21.  | 2022.10.21. | Funkcionális specifikáció táblázat és képek láthatóak | Hiba javítva | Táblázat kinézet javítva |
+| Teszt #3 | 2022.10.22. | 2022.10.23. | Rendszerterv táblázat és képek láthatóak | Hiba javítva | A képek betöltenek és a táblázat kinézet javítva |
+
 ## Béta teszt
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
