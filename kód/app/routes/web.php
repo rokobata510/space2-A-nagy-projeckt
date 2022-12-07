@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Symfony\Component\Console\Input\Input;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +32,8 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/admin/{tab?}', function ($tab="users") {
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
     return view('layouts/admin');
 })->middleware(['auth', 'verified'])->name('admin');
 
