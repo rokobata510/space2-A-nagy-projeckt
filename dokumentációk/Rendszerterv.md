@@ -200,7 +200,9 @@ Adatbázis rendszer
 A program elérése, kezelése
 
 ## 8. Adatbázis terv
-~folyamatban~
+| ![adat1](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/adat1.png) | ![adat2](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/adat2.png) | 
+| ---- | ---- |
+| ![adat3](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/adat3.png) |
 
 ## 9. Implementációs terv
 - PHP és Laravel alapú oldal, 
