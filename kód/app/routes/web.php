@@ -45,6 +45,12 @@ Route::get('/admin/users/delete/{id?}', function ($id="null") {
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
 })->middleware(['auth', 'verified']);
 
+Route::get('/admin/users/admin/{id?}', function ($id="null") {
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
+    DB::update('update users set isAdmin = true where Id = ?', [$id]);
+    return Redirect::route('admin', ["users"])->with('global', 'Your account has been updated!');
+})->middleware(['auth', 'verified']);
 
 // újra kidolgozás
 /*Route::get('/admin/new/submit', function (Request $request) {
