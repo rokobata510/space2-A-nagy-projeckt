@@ -17,7 +17,8 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public static function checkAdmin()
     {
-        // -> returnolja redirect cimet kesobbi hasznalatra
+        if(Auth::user()->isAdmin!=1)
+        return Redirect::to("www.google.com");
     }
     
 }
