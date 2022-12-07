@@ -38,6 +38,8 @@ Route::get('/admin/{tab?}', function ($tab="users") {
 })->middleware(['auth', 'verified'])->name('admin');
 
 Route::get('/admin/users/delete/{id?}', function ($id="null") {
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
     $user = User::findOrFail($id);
     $user->delete();
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
