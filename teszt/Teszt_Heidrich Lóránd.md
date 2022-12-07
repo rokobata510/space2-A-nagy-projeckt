@@ -59,7 +59,7 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Teszt #2 | 2022.11.30. | Az oldal csak bejelentkezés után elérhető | Sikeres | Nincs hiba|
 
 
-### Véjagleges teszt hibák javítása
+### Végleges teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
 | ...  | ... | ... | ... | ... | ... |
