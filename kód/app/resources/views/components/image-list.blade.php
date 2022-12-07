@@ -28,7 +28,7 @@
                         @foreach($users as $user)
                             <tr>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->id}}</td>
-                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->url}}</td>
+                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-700 border border-pink-800">{{$user->url}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->solution}}</td>
                             </tr>
                         @endforeach
