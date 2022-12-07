@@ -47,6 +47,14 @@ A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
 
 A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra ellenőrzésre kerül. Ezzel együtt az új funkciók is tesztelésre kerültek.
 
+### Béta teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #1  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: főoldal gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #2  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: profile gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #3  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: kijelentkezés gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #4  |  2022.11.09. |  2022.11.09. | Főoldal: az oldal kinézete megjelenik | Hiba javítva | Css elérési út pontosítva |
+
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
