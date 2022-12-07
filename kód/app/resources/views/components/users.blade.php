@@ -21,7 +21,7 @@ use App\Models\User;
                             <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">
                                 Felhasználó név
                             </th>
-                            <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">
+                            <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-600 border border-pink-800">
                                 Email
                             </th>
                             <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">
