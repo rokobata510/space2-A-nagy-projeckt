@@ -10,7 +10,13 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.10.21. | Funkcionális specifikáció táblázat és képek láthatóak | Sikertelen | A táblázat elosztása nem megfelelő |
+| Teszt #2 | 2022.10.21. | Követelmény specifikáció táblázat és képek láthatóak | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.10.22. | Rendszerterv táblázat és képek láthatóak | Sikertelen | A kép nem tölt be és a táblázat sorai elcsúsztak |
+| Teszt #5 | 2022.10.26. | Regisztrációs oldal: email mező hiba mentesen működik | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.10.30. | Bejelentkezés oldal: email mező hiba mentesen működik | Sikeres | Nincs hiba |
+| Teszt #7 | 2022.10.31. | Bejelentkezés oldal: "nincs felhasználód?" gomb működik | Sikeres | Nincs hiba |
+| Teszt #8 | 2022.11.01. | Elfelejtett jelszó oldal: email mező hiba mentesen működik | Sikeres | Nincs hiba |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
 Az Alfa tesztelés során a vizsgált elemek között volt ami nem megfelelően működött, ez a későbbiek során javításra szorul.
