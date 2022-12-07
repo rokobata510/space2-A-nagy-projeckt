@@ -21,7 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'isAdmin',  // is admin beszurva
+        'isAdmin' => 0
     ];
 
     /**
