@@ -59,6 +59,11 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Teszt #2 | 2022.11.30. | Az oldal csak bejelentkezés után elérhető | Sikeres | Nincs hiba|
 
 
+### Véjagleges teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| ...  | ... | ... | ... | ... | ... |
+
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
 Átadásra készen áll a megrendelőnek.
