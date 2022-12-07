@@ -55,6 +55,12 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Teszt #2 | 2022.12.02. | A feliratok mindenhol Magyarul vannak | Sikertelen | Vannak Angol feliratom még |
 | Teszt #3 | 2022.12.02. | Az oldal telefonos nézetbe is szépen látható | Sikertelen | Javításra szorul a reszponzív nézet |
 
+### Végleges teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #2 | 2022.12.02. | 2022.12.02. | A feliratok mindenhol Magyarul vannak | Hiba javítva | Minden Magyar |
+| Test #3 | 2022.12.02. | 2022.12.02. | Az oldal telefonos nézetbe is szépen látható | Hiba javítva | Reszponzív nézet javítva |
+
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
 Átadásra készen áll a megrendelőnek.
