@@ -48,9 +48,10 @@ use App\Models\User;
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->id}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->name}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->email}}</td>
+                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->isAdmin ? "Igen":"Nem"}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->created_at}}</td>
                                 <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$user->password}}</td>
-                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800"><button type="button" onclick="window.location='{{url("admin/users/delete/$user->id")}}'">Button</button></td>
+                                <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800"><button type="button" onclick="window.location='{{url("admin/users/admin/$user->id")}}'">Adminná tesz</button></td>
 
                             </tr>
                         @endforeach
