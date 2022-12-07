@@ -10,10 +10,10 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| Teszt #1 | 2022.10.20. | Funkcionális specifikáció formátás megfelelő | Sikeres | Nincs hiba |
-| Teszt #2 | 2022.10.22. | Követelmény specifikáció formátás megfelelő  | Sikertelen | A sortördelés javításra szorul |
-| Teszt #3 | 2022.10.23. | Rendszerterv formátás megfelelő  | Sikertelen | A sortördelés javításra szorul  |
-| Teszt #5 | 2022.10.26. | Regisztrációs oldal: jelszó  mező hiba mentesen működik | Sikeres | Nincs hiba |
+| Teszt #1 | 2022.10.20. | Funkcionális specifikáció formázás megfelelő | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.10.22. | Követelmény specifikáció formázás megfelelő | Sikertelen | A sortördelés javításra szorul |
+| Teszt #3 | 2022.10.23. | Rendszerterv formázás megfelelő | Sikertelen | A sortördelés javításra szorul |
+| Teszt #5 | 2022.10.26. | Regisztrációs oldal: jelszó mező hiba mentesen működik | Sikeres | Nincs hiba |
 | Teszt #6 | 2022.10.30. | Regisztrációs oldal: működik a "már regisztrált?" felirat | Sikeres | Nincs hiba |
 | Teszt #7 | 2022.10.31. | Bejelentkezés oldal: jelszó mező hiba mentesen működik | Sikeres | Nincs hiba |
 | Teszt #8 | 2022.11.01. | Elfelejtett jelszó oldal: gomb működik | Sikeres | Nincs hiba |
@@ -26,21 +26,19 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 ### Alfa teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
-| Teszt #2 | 2022.10.22.  | 2022.10.23. | Követelmény specifikáció formátás megfelelő | Hiba javítva | Sortördelés megfelelő |
-| Teszt #3 | 2022.10.23. | 2022.10.23. | Rendszerterv formátás megfelelő | Hiba javítva | Sortördelés megfelelő |
-
+| Teszt #2 | 2022.10.22. | 2022.10.23. | Követelmény specifikáció formázás megfelelő | Hiba javítva | Sortördelés megfelelő |
+| Teszt #3 | 2022.10.23. | 2022.10.23. | Rendszerterv formázás megfelelő | Hiba javítva | Sortördelés megfelelő |
 
 ## Béta teszt
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
 | Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során. |
-| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profile gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során.  |
+| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profil gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során. |
 | Teszt #3 | 2022.11.02. | Főoldal: címsáv: kijelentkezés gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során. |
 | Teszt #4 | 2022.11.09. | Főoldal: az oldal kinézete megjelenik | Sikertelen | Nem érzékelte a css jelenlétét |
 | Teszt #5 | 2022.11.25. | Profil: Jelszó frissítés: jelenlegi jelszó érzékelés és hiba dobás | Sikeres | Nincs hiba |
-| Teszt #6 | 2022.11.30. | Profil: Jelszó frissítés: új jelszó-ra frissít az adatbázisban | Sikeres | Nincs hiba |
-
+| Teszt #6 | 2022.11.30. | Profil: Jelszó frissítés: új jelszóra frissít az adatbázisban | Sikeres | Nincs hiba |
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
@@ -50,10 +48,10 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 ### Béta teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
-| Teszt #1  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: főoldal gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
-| Teszt #2  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: profile gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
-| Teszt #3  |  2022.11.02. |  2022.11.09. | Főoldal: címsáv: kijelentkezés gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
-| Teszt #4  |  2022.11.09. |  2022.11.09. | Főoldal: az oldal kinézete megjelenik | Hiba javítva | Css elérési út pontosítva |
+| Teszt #1 | 2022.11.02. | 2022.11.09. | Főoldal: címsáv: főoldal gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #2 | 2022.11.02. | 2022.11.09. | Főoldal: címsáv: profil gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #3 | 2022.11.02. | 2022.11.09. | Főoldal: címsáv: kijelentkezés gomb kattintás után a megfelelő oldalra dob | Hiba javítva | Elérési út hiba kezelve a web.php ban |
+| Teszt #4 | 2022.11.09. | 2022.11.09. | Főoldal: az oldal kinézete megjelenik | Hiba javítva | Css elérési út pontosítva |
 
 
 ## Végleges teszt
@@ -74,6 +72,6 @@ A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikail
 
 Átadásra készen áll a megrendelőnek.
 
-Tesztelést végezte és írta: Rokob Atilla
+Tesztelést végezte és írta: Rokob Attila Adrián
 
 Befejezve: 2022.12.08.
