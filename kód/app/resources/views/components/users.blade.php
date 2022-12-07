@@ -34,6 +34,9 @@ use App\Models\User;
                                 Jelszó 
                             </th>
                             <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-700 border border-pink-800">
+                                Törlés
+                            </th>
+                            <th scope="col" class="px-6 py-4 text-sm font-medium text-left text-pink-700 border border-pink-800">
                                 Adminná tétel
                             </th>
                         </tr>
