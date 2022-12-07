@@ -41,7 +41,11 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 | Teszt #6 | 2022.11.23. | Profil: Felhasználó törlése kattintás utáni visszakérdezés | Sikeres | Nincs hiba|
 | Teszt #7 | 2022.11.28. | Profil: Felhasználó törlése jelszó újra kérése | Sikeres | Nincs hiba |
 
-
+### Béta teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #3 | 2022.11.06.  | 2022.11.20. | Főoldal: kép megjelenik | Hiba javítva | Táblázat kinézet javítva |
+| Teszt #4 | 2022.11.20. | 2022.11.20. | Főoldal: helyes válasz esetén új képet dob  | Hiba javítva | A képek betöltenek és a táblázat kinézet javítva |
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
