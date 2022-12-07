@@ -40,10 +40,12 @@ Route::get('/admin/users/delete/{id?}', function ($id="null") {
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
 })->middleware(['auth', 'verified']);
 
-Route::get('/admin/new/submit', function (Request $request) {
+
+// újra kidolgozás
+/*Route::get('/admin/new/submit', function (Request $request) {
     DB::insert("insert into admins (name, password) values (?,?)", [$request->input('name'), Hash::make($request->input('password'))]);
     return view('/layouts/admin', ["tab" => "new"]);
-})->middleware(['auth', 'verified']);
+})->middleware(['auth', 'verified']); */
 
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
