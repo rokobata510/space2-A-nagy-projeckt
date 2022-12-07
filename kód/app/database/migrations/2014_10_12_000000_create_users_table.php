@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->integer('isAdmin'); // is admin beszurva
+            $table->integer('isAdmin') //-> legyen nullable itt; 
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
