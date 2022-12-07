@@ -1,8 +1,8 @@
 # Tesztjegyzőkönyv
 
-Teszteléseket végezte: Vezetéknév Keresztnév
+Teszteléseket végezte: Rokob Atilla
 
-Operációs rendszer: OS
+Operációs rendszer: Windows
 
 Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és eredményei, illetve időpontjai (Alfa, Béta és Végleges verzió).
 
@@ -36,6 +36,6 @@ A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikail
 
 Átadásra készen áll a megrendelőnek.
 
-Tesztelést végezte és írta: Vezetéknév Keresztnév
+Tesztelést végezte és írta: Rokob Atilla
 
-Befejezve: 2022.xx.xx.
+Befejezve: 2022.12.08.
