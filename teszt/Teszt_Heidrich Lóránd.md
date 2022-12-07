@@ -33,7 +33,15 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.11.02. | Főoldal: küldés gomb megjelenik | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.11.03. | Főoldal: küldés gomb működik | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.11.06. | Főoldal: kép megjelenik | Sikertelen | Nem találta a képet |
+| Teszt #4 | 2022.11.20. | Főoldal: helyes válasz esetén új képet dob | Sikertelen | Nem érzékelte a helyes válasz megadását |
+| Teszt #5 | 2022.11.23. | Profil: Felhasználó törlése rész megjelenik | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.11.23. | Profil: Felhasználó törlése kattintás utáni visszakérdezés | Sikeres | Nincs hiba|
+| Teszt #7 | 2022.11.28. | Profil: Felhasználó törlése jelszó újra kérése | Sikeres | Nincs hiba |
+
+
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
