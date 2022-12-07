@@ -34,7 +34,13 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során. |
+| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profile gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során.  |
+| Teszt #3 | 2022.11.02. | Főoldal: címsáv: kijelentkezés gomb kattintás után a megfelelő oldalra dob | Sikertelen | Hibát dobott az első teszt során. |
+| Teszt #4 | 2022.11.09. | Főoldal: az oldal kinézete megjelenik | Sikertelen | Nem érzékelte a css jelenlétét |
+| Teszt #5 | 2022.11.25. | Profil: Jelszó frissítés: jelenlegi jelszó érzékelés és hiba dobás | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.11.30. | Profil: Jelszó frissítés: új jelszó-ra frissít az adatbázisban | Sikeres | Nincs hiba |
+
 
 A Béta teszt sikeresen zajlott.
 A Béta teszt során akadtan hibák, mely(ek) javításra szorulnak.
