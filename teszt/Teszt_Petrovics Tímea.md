@@ -14,8 +14,8 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 | Teszt #2 | 2022.10.20. | Követelmény specifikáció helyesírási hiba mentes | Sikeres | Nincs helyesírási hiba találva |
 | Teszt #3 | 2022.10.22. | Rendszerterv helyesírási hiba mentes | Sikeres | Nincs helyesírási hiba találva |
 | Teszt #4 | 2022.10.25. | Regisztrációs oldal: név mező hiba mentesen működik | Sikeres | Nincs hiba |
-| Teszt #5 | 2022.10.26. | Regisztrációs oldal: a regisztráció gomb működik  | Sikeres | Nincs hiba |
-| Teszt #6 | 2022.10.30. | Bejelentkezés oldal: "elfelejtetted a jelszót gomb" működik | Sikeres | Nincs hiba  |
+| Teszt #5 | 2022.10.26. | Regisztrációs oldal: a regisztráció gomb működik | Sikeres | Nincs hiba |
+| Teszt #6 | 2022.10.30. | Bejelentkezés oldal: "elfelejtetted a jelszót gomb" működik | Sikeres | Nincs hiba |
 | Teszt #7 | 2022.10.31. | Elfelejtett jelszó oldal: Logó látható | Sikertelen | A logó elcsúszik a képernyőn |
 
 Az Alfa tesztelés során a vizsgált elemek mind hibátlanul működtek mindenféle fennakadások nélkül.
@@ -33,11 +33,11 @@ Következő tesztelésnél a többi funkció kerül vizsgálatra illetve elemzé
 
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb megjelenik | Sikeres | Nincs hiba  |
-| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profile megjelenik | Sikeres | Nincs hiba |
+| Teszt #1 | 2022.11.02. | Főoldal: címsáv: főoldal gomb megjelenik | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.11.02. | Főoldal: címsáv: profil megjelenik | Sikeres | Nincs hiba |
 | Teszt #3 | 2022.11.02. | Főoldal: címsáv: kijelentkezés megjelenik | Sikeres | Nincs hiba |
-| Teszt #4 | 2022.11.14. | Főoldal: címsáv: logó megjelenik  | Sikertelen | Rossz minőségbe jelent meg |
-| Teszt #5 | 2022.11.17. | Profil: Profil információk név váltás lehteséges | Sikeres | Nincs hiba |
+| Teszt #4 | 2022.11.14. | Főoldal: címsáv: logó megjelenik | Sikertelen | Rossz minőségbe jelent meg |
+| Teszt #5 | 2022.11.17. | Profil: Profil információk név váltás lehetséges | Sikeres | Nincs hiba |
 | Teszt #6 | 2022.11.28. | Profil: Profil információk email váltás lehetséges | Sikeres | Nincs hiba |
 | Teszt #7 | 2022.11.28. | Profil: a tervezett külalak jelenik meg | Sikeres | Nincs hiba |
 | Teszt #8 | 2022.11.30. | Kijelentkezés: gombra kattintás után kijelentkezik a profilból | Sikeres | Nincs hiba |
@@ -50,20 +50,20 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 ### Béta teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
-| Teszt #4  |  2022.11.14. |  2022.11.16. | Főoldal: címsáv: logó megjelenik | Hiba javítva | Minőség és méret javítva |
+| Teszt #4 | 2022.11.14. | 2022.11.16. | Főoldal: címsáv: logó megjelenik | Hiba javítva | Minőség és méret javítva |
 
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
 | Teszt #1 | 2022.11.30. | A kép változik minden helyes tipp után | Sikeres | Nincs hiba |
 | Teszt #2 | 2022.11.30. | A helyes és helytelen válaszok megtekinthetőek | Sikeres | Nincs hiba |
-| Teszt #3 | 2022.12.01. | Minden profil adat szerkezthető | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.12.01. | Minden profil adat szerkeszthető | Sikeres | Nincs hiba |
 | Teszt #4 | 2022.12.01. | Az oldal kinézete mindenhol jól tölt be | Sikeres | Nincs hiba |
 
 ### Végleges teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
-| ...  | ... | ... | ... | ... | ... |
+| ... | ... | ... | ... | ... | ... |
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
