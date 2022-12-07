@@ -64,6 +64,12 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Teszt #3 | 2022.12.05. | Admin felhasználó tud képet feltölteni | Sikeres | Nincs hiba |
 | Teszt #4 | 2022.12.06. | Admin fiók létrehozás lehetséges | Sikertelen | Hibát dobott |
 
+### Végleges teszt hibák javítása
+| Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- | --- |
+| Teszt #1 | 2022.11.30. | 2022.11.30. | Admin felület: felhasználó adatok megtekinthetőek | Hiba javítva |Javítva a formátum |
+| Teszt #4 | 2022.12.06. | 2022.12.06. | Admin fiók létrehozás lehetséges | Hiba javítva | Hiba javítva |
+
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
 Átadásra készen áll a megrendelőnek.
