@@ -55,7 +55,9 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 ## Végleges teszt
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
-| ... | 2022.xx.xx. | ... | ... | ... |
+| Teszt #1 | 2022.11.30. | Sima felhasználó nem tudja megnézni az admin felületet | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.11.30. | Az oldal csak bejelentkezés után elérhető | Sikeres | Nincs hiba|
+
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
