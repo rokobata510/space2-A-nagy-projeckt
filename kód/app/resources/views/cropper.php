@@ -15,9 +15,9 @@ $sql = "SELECT url FROM image";
 $result = $conn->query($sql);
 //ha ad vissza valamit a $sql lekérdezés, akkor $resultimg lesz az
 //tesztelés idejére csak egy visszaadott képet kezel
-if ($result->num_rows > 0)
+if ($result->num_rows > 0) 
 {
-	while($row = $result->fetch_assoc())
+	while($row = $result->fetch_assoc()) 
 	{
 		array_push($url_arr, $row["url"]);
 	}
