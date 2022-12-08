@@ -105,4 +105,13 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::post("/dashboard",function (Request $req) {
+    $sol = $req->sol;
+    $text = $req->text;
+    if ($sol == $text) {
+        return redirect("siker");
+    }
+});
+Route::view("/siker","siker");
+
 require __DIR__.'/auth.php';

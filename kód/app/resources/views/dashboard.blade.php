@@ -29,7 +29,7 @@
                             die('Connection failed: ' . $conn->connect_error);
                         }
                         $arr = [];
-                        $sql = 'SELECT id, url FROM images';
+                        $sql = 'SELECT id, url, solution FROM images';
                         $result = $conn->query($sql);
                         //ha ad vissza valamit a $sql lekérdezés, akkor $resultimg lesz az
                         //tesztelés idejére csak egy visszaadott képet kezel
@@ -63,7 +63,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <form>
+                        <form method="POST" action="/dashboard">
+                            @csrf
                             <x-input-label class="block">
                                 <div class="bg-[#1E1E1E]">
                                     <x-input-label style="font-size: 17px" class="md:font-Inter text-black ..."
@@ -73,14 +74,15 @@
                                     <hr class="my-0  h-px bg-[#1E1E1E] rounded border-0 ">
                                 </div>
                             </x-input-label>
+                            <input type="hidden" name="sol" value="{{$resultimg["solution"]}}">
+                            <x-primary-button type="submit" style="font-size: 20px "
+                                class="focus:outline-none focus:ring-5 bg-gradient-to-r
+                         from-pink-700 to-fuchsia-800 hover:from-violet-800 hover:to-indigo-500 ...">
+                                Küldés
+                            </x-primary-button>
                         </form>
                     </td>
                     <td>
-                        <x-primary-button type="button" style="font-size: 20px "
-                            class="focus:outline-none focus:ring-5 bg-gradient-to-r
-                     from-pink-700 to-fuchsia-800 hover:from-violet-800 hover:to-indigo-500 ...">
-                            Küldés
-                        </x-primary-button>
                     </td>
                 </tr>
             </tbody>
