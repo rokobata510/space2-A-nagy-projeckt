@@ -17,7 +17,42 @@
             <tbody>
                 <tr>
                     <td class="flex flex-col items-center min-w-full table-auto">
-                        <img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="{{url('/image')}}" alt="meme">
+                        <?php //sql connection adatok
+                        $servername = 'localhost';
+                        $username = 'root';
+                        $password = '';
+                        $database = 'laravel';
+
+                        $conn = new mysqli($servername, $username, $password, $database);
+
+                        if ($conn->connect_error) {
+                            die('Connection failed: ' . $conn->connect_error);
+                        }
+                        $arr = [];
+                        $sql = 'SELECT id, url FROM images';
+                        $result = $conn->query($sql);
+                        //ha ad vissza valamit a $sql lekérdezés, akkor $resultimg lesz az
+                        //tesztelés idejére csak egy visszaadott képet kezel
+                        if ($result->num_rows > 0) {
+                            while ($row = $result->fetch_assoc()) {
+                                array_push($arr, $row);
+                            }
+                        } else {
+                            echo '0 results';
+                        }
+                        $conn->close();
+
+                        //random choice url_arr-bol
+                        $i = rand(0, sizeof($arr) - 1);
+                        $resultimg = $arr[$i];
+
+                        //$resultimg egy tárolt url string
+                        //kivesszük az értékét
+                        //képet csinálunk a stringből
+                        //$im = str_replace('data:image/png;base64,', '', (file_get_contents($resultimg)));
+
+                        echo '<img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="' . $resultimg['url'] . '" alt='.$resultimg['id'].'>';
+                        ?>
                     </td>
                 </tr>
                 <tr>
