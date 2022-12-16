@@ -1,0 +1,18 @@
+----A futtatáshoz szügséges terminal adatok----
+cd kód
+cd app  
+composer update  VAGY composer update --ignore-platform-reqs VAGY composer install --ignore-platform-reqs
+npm install
+npm run dev
+
+cd kód
+cd app
+npx vite build
+php artisan key:generate
+php artisan migrate
+php artisan serve   
+
++xampp fusson és a .env legyen meg
+
+Undefined array key 0-hiba esetén:
+phpMyAdmin -> laravel -> imagines -> kép hozzáadása
