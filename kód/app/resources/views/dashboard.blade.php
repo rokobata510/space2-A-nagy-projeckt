@@ -1,3 +1,11 @@
+<?php
+use App\Models\tipp;
+
+    use Illuminate\Support\Facades\DB;
+
+    $tipps = DB::table('tipps')->get();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js" integrity="sha256-xKeoJ50pzbUGkpQxDYHD7o7hxe0LaOGeguUidbq6vis=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,11 +32,11 @@
                     <td class="flex flex-col items-center min-w-full table-auto">
                         <?php //sql connection adatok
                         $servername = 'localhost';
-                        $username = 'root';
+                        $tippname = 'root';
                         $password = '';
                         $database = 'laravel';
 
-                        $conn = new mysqli($servername, $username, $password, $database);
+                        $conn = new mysqli($servername, $tippname, $password, $database);
 
                         if ($conn->connect_error) {
                             die('Connection failed: ' . $conn->connect_error);
@@ -74,6 +87,7 @@
                                     <hr class="my-0  h-px bg-[#1E1E1E] rounded border-0 ">
                                 </div>
                             </x-input-label>
+
                             <input type="hidden" name="sol" value="{{$resultimg["solution"]}}">
                             <x-primary-button type="submit" style="font-size: 20px "
                                 class="focus:outline-none focus:ring-5 bg-gradient-to-r
@@ -81,8 +95,39 @@
                                 Küldés
                             </x-primary-button>
                         </form>
-                    </td>
-                    <td>
+
+                        <!-- Tipp arány -->
+                        <div class="flex flex-col m-4">
+                            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                <div class="inline-block w-full py-2 sm:px-6 lg:px-8">
+                                    <div class="overflow-hidden">
+                                        <table class="">
+                                            <tbody class="bg-neutral-700">
+                                                <tr class="border-b border-pink-800">
+                                                @foreach($tipps as $tipp)
+                                                    <tr>
+                                                        <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$tipp->correct}}</td>
+                                                        <td class="px-6 py-4 text-sm font-medium text-left text-pink-500 border border-pink-800">{{$tipp->allOf}}</td>
+
+                                                    </tr>
+                                                @endforeach
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        @if (isset($header))
+                        <?php DB::table('tipps')
+                            ->where('rowID', 1)
+                            ->update([
+                                'correct' => DB::raw('correct + 1'),
+                                'allOf' => DB::raw('allOf + 1'),
+                            ]);
+                        ?>
+                        @endif
+
                     </td>
                 </tr>
             </tbody>
