@@ -45,7 +45,6 @@
                     @default
 
                 @endswitch
-
                 </div>
             </section>
         </div>

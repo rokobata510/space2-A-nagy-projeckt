@@ -46,12 +46,24 @@ Route::get('/admin/users/delete/{id?}', function ($id="null") {
     return Redirect::route('admin')->with('global', 'Your account has been deleted!');
 })->middleware(['auth', 'verified']);
 
+//admin jog adás
 Route::get('/admin/users/admin/{id?}', function ($id="null") {
     if(!Auth::user()->isAdmin)
         return Redirect::to("dashboard");
     DB::update('update users set isAdmin = true where Id = ?', [$id]);
     return Redirect::route('admin', ["users"])->with('global', 'Your account has been updated!');
 })->middleware(['auth', 'verified']);
+
+//admin jog elvétel
+Route::get('/admin/users/unadmin/{id?}', function ($id="null") {
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
+    DB::update('update users set isAdmin = false where Id = ?', [$id]);
+    return Redirect::route('admin', ["users"])->with('global', 'Your account has been updated!');
+})->middleware(['auth', 'verified']);
+
+
+
 Route::get('/image', function () {
     //sql connection adatok
 $servername = "localhost";
