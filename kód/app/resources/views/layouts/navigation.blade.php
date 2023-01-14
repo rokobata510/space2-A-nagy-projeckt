@@ -21,7 +21,14 @@
                 <a style="font-size: 19px" class="inline-flex items-center py-5 text-sm font-medium leading-4 text-white transition duration-150 ease-in-out border border-transparent rounded-md px-14 bg-neutral-900 hover:text-black hover:bg-pink-600 focus:outline-none" href="/profile">
                     {!! "Profil" !!}
                 </a>
+                <!-- Címsáv ADMIN -->
+                @if(Auth::check() && Auth::user()->isAdmin == "1")
 
+                <a style="font-size: 19px" class="inline-flex items-center py-5 text-sm font-medium leading-4 text-white transition duration-150 ease-in-out border border-transparent rounded-md px-14 bg-neutral-900 hover:text-black hover:bg-pink-600 focus:outline-none" href="/admin">
+                        {!! "Admin felület" !!}
+                    </a>
+                    @endif
+                <!-- vége -->
                 <form method="POST" action="{{ route('logout') }}" class="inline-flex items-center py-5 text-sm font-medium leading-4 text-white transition duration-150 ease-in-out border border-transparent rounded-md px-14 bg-neutral-900 hover:text-black hover:bg-pink-600 focus:outline-none">
                     @csrf
                     <a :href="route('logout')" onclick="event.preventDefault();
@@ -29,6 +36,7 @@
                         {{ __('Kijelentkezés') }}
                     </a>
                 </form>
+
 
                 <!-- Hamburger -->
                 <div class="flex items-center -mr-2 sm:hidden">

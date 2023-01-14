@@ -29,5 +29,20 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('admins');
+
+        Schema::create('role', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+        });
+        Schema::create('user_role', function (Blueprint $table) {
+            $table->bigInteger('user_id')->unsigned();
+            $table->integer('role_id')->unsigned();
+            $table->foreign('user_id')
+                ->references('id')->on('users');
+            $table->foreign('role_id')
+                ->references('id')->on('roles');
+        });
     }
 };
+
+

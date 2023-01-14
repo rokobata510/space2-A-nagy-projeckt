@@ -59,19 +59,13 @@ use App\Models\tipp;
                         $i = rand(0, sizeof($arr) - 1);
                         $resultimg = $arr[$i];
 
-                        //$resultimg egy tárolt url string
-                        //kivesszük az értékét
-                        //képet csinálunk a stringből
-                        //$im = str_replace('data:image/png;base64,', '', (file_get_contents($resultimg)));
-
                         echo '<img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="' . $resultimg['url'] . '" alt='.$resultimg['id'].'>';
-                        ?>
+
+                       ?>
                     </td>
                 </tr>
                 <tr>
-                    <td style="font-size: 50px "
-                        class="table-auto min-w-full flex flex-col items-center text-pink-600
-                text-center font-bold md:font-Inter  ...">
+                    <td style="font-size: 50px " class="table-auto min-w-full flex flex-col items-center text-pink-600 text-center font-bold md:font-Inter  ...">
                         Mi van a képen? </td>
                 </tr>
                 <tr>
@@ -81,13 +75,12 @@ use App\Models\tipp;
                             <x-input-label class="block">
                                 <div class="bg-[#1E1E1E]">
                                     <x-input-label style="font-size: 17px" class="md:font-Inter text-black ..."
-                                        for="text" />
+                                        for="text" type="text" name="text"/>
                                     <x-text-input id="text" class="text-pink-900 block mt-1 w-full border-none ..."
-                                        type="text" name="text" required autofocus />
+                                        type="text" id="text" name="text" required autofocus />
                                     <hr class="my-0  h-px bg-[#1E1E1E] rounded border-0 ">
                                 </div>
                             </x-input-label>
-
                             <input type="hidden" name="sol" value="{{$resultimg["solution"]}}">
                             <x-primary-button type="submit" style="font-size: 20px "
                                 class="focus:outline-none focus:ring-5 bg-gradient-to-r
@@ -95,8 +88,24 @@ use App\Models\tipp;
                                 Küldés
                             </x-primary-button>
                         </form>
+                        <?php
+                        // Tipp arány
+                        if($resultimg["solution"] === 'text') {
+                            if ($resultimg["solution"] === 'text')
+                                        {
+                                            DB::table('post')
+                                            ->where('userid', 1)
+                                            ->update(['correct' => correct + 1]);
+                                        }
+                            else        {
+                                            DB::table('post')
+                                            ->where('userid', 1)
+                                            ->update(['allOf' => allOf + 1]);
+                                        }
+                                    }
+                        ?>
 
-                        <!-- Tipp arány -->
+
                         <div class="flex flex-col m-4">
                             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                                 <div class="inline-block w-full py-2 sm:px-6 lg:px-8">
@@ -118,16 +127,6 @@ use App\Models\tipp;
                                     </div>
                             </div>
                         </div>
-                        @if (isset($header))
-                        <?php DB::table('tipps')
-                            ->where('rowID', 1)
-                            ->update([
-                                'correct' => DB::raw('correct + 1'),
-                                'allOf' => DB::raw('allOf + 1'),
-                            ]);
-                        ?>
-                        @endif
-
                     </td>
                 </tr>
             </tbody>
