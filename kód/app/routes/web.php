@@ -38,6 +38,7 @@ Route::get('/admin/{tab?}', function ($tab="users") {
     return view('layouts/admin');
 })->middleware(['auth', 'verified'])->name('admin');
 
+//account törlese
 Route::get('/admin/users/delete/{id?}', function ($id="null") {
     if(!Auth::user()->isAdmin)
         return Redirect::to("dashboard");
@@ -62,7 +63,13 @@ Route::get('/admin/users/unadmin/{id?}', function ($id="null") {
     return Redirect::route('admin', ["users"])->with('global', 'Your account has been updated!');
 })->middleware(['auth', 'verified']);
 
-
+//kép törlese
+Route::get('/admin/images/deleteimg/{id?}', function ($id="null") {
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
+        DB::delete('DELETE FROM images WHERE id = ?', [$id]);
+    return Redirect::route('admin', ["images"])->with('global', 'This img has been deleted!');
+})->middleware(['auth', 'verified']);
 
 Route::get('/image', function () {
     //sql connection adatok
