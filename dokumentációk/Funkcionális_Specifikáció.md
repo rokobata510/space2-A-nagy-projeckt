@@ -68,24 +68,30 @@ letisztultságra és egyszerű eleganciájával valamint azzal, hogy kerüli a h
 
 2. Az adatok oldalon lehetősége van a felhasználónak az adatainak módosítására, mint az email, jelszó és felhasználó név.
 
-3. Lehetősége van profil képet is feltölteni az oldalra regisztráltaknak.
+3. Regisztrálni és utána bejelentkezni
 
-4. Regisztrálni és utána bejelentkezni
-
-5. Adatbázisban adatok tárolása a felhasználóról és az oldalon megjelenő képekről egyaránt.
+4. Adatbázisban adatok tárolása a felhasználóról és az oldalon megjelenő képekről egyaránt.
 
 
 ## 8. Képernyő tervek
+### Kezdetlegi tervek
 |  |  |
 |---|---|
 | ![kül2](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl2.png) | ![kül5](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl5.png) |
-| ![kül3](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl3.png) | ![kül4](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl4.png) | 
+| ![kül3](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl3.png) | ![kül4](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/k%C3%A9pek/k%C3%BCl4.png) |
 
+### Jelenlegi kinézet
+#### Felhasználói nézet
+|  |  |
+|---|---|
+| ![log-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/log-jelenleg.png) | ![prof-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/prof-jelenleg.png) |
+| ![reg-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/reg-jelenleg.png) | ![dash-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/dash-jelenleg.png) |
 
-
-
-
-
+#### Admin nézet
+|  |
+|---|
+| ![admin-img-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/admin-img-jelenleg.png) |
+| ![admin-user-jelenleg](https://github.com/rokobata510/space2-A-nagy-projeckt/blob/main/képek/admin-user-jelenleg.png) |
 
 
 
