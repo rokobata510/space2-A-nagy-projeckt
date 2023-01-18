@@ -77,17 +77,8 @@ Route::get('/admin/images/deleteimg/{id?}', function ($id="null") {
 })->middleware(['auth', 'verified']);
 
 //kép adás
-//Route::post('/admin/images/addimg',[imgController::addimg(request $REQUEST), 'imgController@addimg'])->name('addimg');
+Route::post('/admin/images/addimg',[imgController::class, 'addimg'])->name('addimg');
 
-/*kép adás
-Route::get('/admin/images/{link}/addimg/{solution}', function ($link, $solution){
-    //ellenőrzi hogy admin e
-    if(!Auth::user()->isAdmin)
-        return Redirect::to("dashboard");
-    //adatbázisba insert
-    DB::insert('INSERT INTO images (link,solution) VALUES(?,?)', [$link, $solution]);
-    return Redirect::route('admin', ["images"])->with('global', 'This img has been added!');//vissza ad
-    })->middleware(['auth', 'verified'])->name('addimage'); //ellenőrzi újra*/
 
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');

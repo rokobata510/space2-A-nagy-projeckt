@@ -25,16 +25,16 @@ if ($conn->connect_error) {
                 <table style="margin-left: auto;margin-right: auto;">
                     <thead class=" bg-gradient-to-r from-gray-500 via-white to-gray-500 ...">
                         <tr>
-                            <th scope="col" class="text-xl px-6 py-4 font-medium text-left text-black border border-black">
+                            <th scope="col" class="px-6 py-4 text-xl font-medium text-left text-black border border-black">
                                 <b>ID
                             </th>
-                            <th scope="col" class="text-xl px-6 py-4 font-medium text-left text-black border border-black">
+                            <th scope="col" class="px-6 py-4 text-xl font-medium text-left text-black border border-black">
                                 <b>Link
                             </th>
-                            <th scope="col" class="text-xl px-6 py-4 font-medium text-left text-black border border-black">
+                            <th scope="col" class="px-6 py-4 text-xl font-medium text-left text-black border border-black">
                                 <b>Megoldás
                             </th>
-                            <th scope="col" class="text-xl px-6 py-4 font-medium text-left text-black border border-black">
+                            <th scope="col" class="px-6 py-4 text-xl font-medium text-left text-black border border-black">
                                 <b>Törlés
                             </th>
 
@@ -64,8 +64,8 @@ if ($conn->connect_error) {
     onclick="window.location = 'images/1/addimg/1'"
 127.0.0.1:8000/admin/images/1/addimg/1
 onclick="window.location('')"
-
-<form method="post" action="">
+-->
+<form method="post" action="{{route('addimg') }}">
     @csrf
 		<label for="link"><b>Link</b></label>
 		<input class="form-control" id="link" type="text" name="link" required>
@@ -76,7 +76,7 @@ onclick="window.location('')"
 		<hr class="mb-3">
         <input class="btn btn-primary" type="submit" id="image" name="create" value="bomb"/>
 
-</form>-->
+</form>
 
 <!--/admin/images/addimg/{link}/{solution}->[link,solution]
     (/admin/images/addimg/{link},{solution},["link"=>"request()->input('link')","solution"=>"request()->input('solution')"])}}")"
@@ -115,5 +115,5 @@ onclick="window.location('')"
 			}
 		});
 	});
-</script>-->
+</script>
 

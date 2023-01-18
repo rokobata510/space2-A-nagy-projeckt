@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\images;
+use Illuminate\Support\Facades\DB;
+    $users = DB::table('images')->get();
 
 class imgController extends Controller
 {
@@ -18,13 +20,14 @@ class imgController extends Controller
     }
     public static function addimg(Request $request)
     {
-        return redirect("retek.hu");
-        dd($request->all());  //to check all the datas dumped from the form
-        //if your want to get single element,someName in this case
-        $someName = $request->someName;
+        //dd($request->input('link'));  //to check all the datas dumped from the form
 
-       /*
-            DB::insert('INSERT INTO images (link,solution) VALUES(?,?)', [$link, $solution]);*/
+        DB::table('images')->insert([
+            'link' => $request->input('link'),
+            'solution' =>  $request->input('solution')
+        ]);
+        return redirect()->route('admin', ['tab' => 'images']);
+
 
     }
 }
