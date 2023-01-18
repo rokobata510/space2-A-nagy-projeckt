@@ -5,7 +5,7 @@ Rendszerterv
 ## 1. A rendszer célja
    A rendszer célja, hogy az oldalra ellátogató felhasználóknak(első sorban fiatalok a célközönségünk)    
    lehetőséget adjunk egy egyszerű ám, de populáris kép kitalálására valamint verseny helyzetet teremtsünk       
-   a helyes és helytelen válaszok átlagának megjelenítésével az oldalra ellátogatók között. A képeket     
+   az egyre bővülő képtárral az oldalra ellátogatók között. A képeket     
    különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői számára tökéletes élményt       
    nyújtson valamint könnyed felismerhetőséget adjon a felhasználók számára. A felület egyszerűségében       
    rejti a szépségét és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt mutat      
@@ -124,8 +124,6 @@ adatait módosítani/új adatokat megadni és kijelentkezni.
 | K7 | Menüsor | A menüsor működik és a megfelelő oldalra dob kattintás után. |
 | K8 | Név módosítás | A felhasználó nevét lehet módosítani vele |
 | K9 | Jelszó módosítás | A felhasználó a jelszavát tudja módosítani vele |
-| K10 | Kép feltöltés | A felhasználó profilképet tud magának feltölteni |
-| K11 | Átlag pont | A helyes és helytelen válaszok átlaga megjelenik. |
 
 
 
@@ -220,11 +218,9 @@ A program elérése, kezelése
  | Kép megjelenés | A kép látható és nem torz(pixeles, darabos)  |
  | Helyes válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
  | Hibás válasz adás | Megfelelő visszajelzést ad a felhasználó számára/ a következő oldalra dob |
- |Új kép helyes válasz esetén| Új kép megjelenik helyes válasz esetén |
- | Helyes válasz átlag | A profiladatoknál a helyes és helytelen válaszok átlaga megjelenik pontosan |
+ | Új kép helyes válasz esetén| Új kép megjelenik helyes válasz esetén |
  | Név váltás | A felhasználó könnyen nevet tud változtatni |
  | Jelszó váltás | A felhasználó könnyen jelszót tud változtatni |
- | Kép beállítás lehetősége | A felhasználó könnyen egyedi profil képet tud beállítani |
  | Regisztráció | Új felhasználó regisztrációja működőképes |
  | Bejelentkezés | A felhasználó be tud lépni az oldalra |
  | Elérhetőség | A felhasználó csak bejelentkezés után érheti el az oldalt |
