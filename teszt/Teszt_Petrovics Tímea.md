@@ -56,14 +56,16 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
 | Teszt #1 | 2022.11.30. | A kép változik minden helyes tipp után | Sikeres | Nincs hiba |
-| Teszt #2 | 2022.11.30. | A helyes és helytelen válaszok megtekinthetőek | Sikeres | Nincs hiba |
+| Teszt #2 | 2022.11.30. | A helyes és helytelen válaszok után az oldal választ küld | Sikeres | Nincs hiba |
 | Teszt #3 | 2022.12.01. | Minden profil adat szerkeszthető | Sikeres | Nincs hiba |
-| Teszt #4 | 2022.12.01. | Az oldal kinézete mindenhol jól tölt be | Sikeres | Nincs hiba |
+| Teszt #4 | 2022.12.01. | Az oldal kinézete mindenhol a vártak szerint tölt be | Sikeres | Nincs hiba |
+| Teszt #5 | 2022.12.06. | Az admin oldal kinézete igényes | Sikertelen | Nem érzékeli a css-t |
+| Teszt #5 | 2022.12.06. | Adminná tétel lehetőség | Sikeres | Nincs hiba |
 
 ### Végleges teszt hibák javítása
 | Vizsgálat neve | Tesztelés eredeti időpontja | Hibamentesítés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | ... | ... |
+| Teszt #5 | 2022.12.06. | 2022.12.09. | Az admin oldal kinézete igényes | Sikeres | Nem érzékelte a css-t |
 
 A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
 
