@@ -59,7 +59,7 @@ A végleges tesztelés során az összes fent felsorolt vizsgálati elem újra e
 | :---: | --- | --- | --- | --- |
 | Teszt #1 | 2022.11.30. | Admin felület: felhasználó adatok megtekinthetőek | Sikertelen | A jelszó formátum hibás |
 | Teszt #2 | 2022.12.01. | Admin felhasználó létezik | Sikeres | Nincs hiba |
-| Teszt #3 | 2022.12.05. | Admin felhasználó tud képet feltölteni | Sikeres | Nincs hiba |
+| Teszt #3 | 2022.12.05. | Admin felhasználó tud felhasználót törölni | Sikeres | Nincs hiba |
 | Teszt #4 | 2022.12.06. | Admin fiók létrehozás lehetséges | Sikertelen | Hibát dobott |
 
 ### Végleges teszt hibák javítása
