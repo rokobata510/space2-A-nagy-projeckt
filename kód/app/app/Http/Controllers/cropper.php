@@ -10,6 +10,7 @@ $conn = new mysqli($servername, $username, $password,$database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 $url_arr = [];
 $sql = "SELECT url FROM image";
 $result = $conn->query($sql);

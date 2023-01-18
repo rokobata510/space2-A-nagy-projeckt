@@ -1,5 +1,4 @@
 <?php
-
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
@@ -13,6 +12,9 @@ use Symfony\Component\Console\Input\Input;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\cropper;
 use Intervention\Image\ImageManager;
+use Spatie\Ignition\Contracts\Solution;
+use App\Http\Controllers\imgController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +25,9 @@ use Intervention\Image\ImageManager;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::view('add','image-list.blade');
+Route::post('add',[imgController::class,'data']);
+
 $imageid=0;
 Route::get('/', function () {
     return view('welcome');
@@ -71,6 +76,23 @@ Route::get('/admin/images/deleteimg/{id?}', function ($id="null") {
     return Redirect::route('admin', ["images"])->with('global', 'This img has been deleted!');
 })->middleware(['auth', 'verified']);
 
+//kép adás
+//Route::post('/admin/images/addimg',[imgController::addimg(request $REQUEST), 'imgController@addimg'])->name('addimg');
+
+/*kép adás
+Route::get('/admin/images/{link}/addimg/{solution}', function ($link, $solution){
+    //ellenőrzi hogy admin e
+    if(!Auth::user()->isAdmin)
+        return Redirect::to("dashboard");
+    //adatbázisba insert
+    DB::insert('INSERT INTO images (link,solution) VALUES(?,?)', [$link, $solution]);
+    return Redirect::route('admin', ["images"])->with('global', 'This img has been added!');//vissza ad
+    })->middleware(['auth', 'verified'])->name('addimage'); //ellenőrzi újra*/
+
+Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
+Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
+
+
 Route::get('/image', function () {
     //sql connection adatok
 $servername = "localhost";
@@ -111,6 +133,7 @@ $resultimg = $arr[$i];
 return '<img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="'.$resultimg["url"].'">';
 })->name("image");
 
+
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
@@ -134,3 +157,6 @@ Route::post("/dashboard",function (Request $req) {
 Route::view("/siker","siker");
 
 require __DIR__.'/auth.php';
+
+
+

@@ -1,10 +1,7 @@
 <?php
 use App\Models\tipp;
-
     use Illuminate\Support\Facades\DB;
-
     $tipps = DB::table('tipps')->get();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,14 +32,12 @@ use App\Models\tipp;
                         $tippname = 'root';
                         $password = '';
                         $database = 'laravel';
-
                         $conn = new mysqli($servername, $tippname, $password, $database);
-
                         if ($conn->connect_error) {
                             die('Connection failed: ' . $conn->connect_error);
                         }
                         $arr = [];
-                        $sql = 'SELECT id, url, solution FROM images';
+                        $sql = 'SELECT id, link, solution FROM images';
                         $result = $conn->query($sql);
                         //ha ad vissza valamit a $sql lekérdezés, akkor $resultimg lesz az
                         //tesztelés idejére csak egy visszaadott képet kezel
@@ -54,13 +49,10 @@ use App\Models\tipp;
                             echo '0 results';
                         }
                         $conn->close();
-
                         //random choice url_arr-bol
                         $i = rand(0, sizeof($arr) - 1);
                         $resultimg = $arr[$i];
-
-                        echo '<img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="' . $resultimg['url'] . '" alt='.$resultimg['id'].'>';
-
+                        echo '<img class="flex flex-col items-center min-w-auto max-h-52 max-w-52" src="' . $resultimg['link'] . '" alt='.$resultimg['id'].'>';
                        ?>
                     </td>
                 </tr>
@@ -89,7 +81,7 @@ use App\Models\tipp;
                             </x-primary-button>
                         </form>
                         <?php
-                        // Tipp arány
+                        /* Tipp arány
                         if($resultimg["solution"] === 'text') {
                             if ($resultimg["solution"] === 'text')
                                         {
@@ -103,10 +95,10 @@ use App\Models\tipp;
                                             ->update(['allOf' => allOf + 1]);
                                         }
                                     }
-                        ?>
+                        */?>
 
 
-                        <div class="flex flex-col m-4">
+                       <!-- <div class="flex flex-col m-4">
                             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                                 <div class="inline-block w-full py-2 sm:px-6 lg:px-8">
                                     <div class="overflow-hidden">
@@ -126,7 +118,7 @@ use App\Models\tipp;
                                     </div>
                                     </div>
                             </div>
-                        </div>
+                        </div>-->
                     </td>
                 </tr>
             </tbody>
