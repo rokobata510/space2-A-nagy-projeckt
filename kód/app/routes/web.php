@@ -153,8 +153,13 @@ Route::post("/dashboard",function (Request $req) {
     if ($sol == $text) {
         return redirect("siker");
     }
+    else
+    {
+        return redirect("hiba");
+    }
 });
 Route::view("/siker","siker");
+Route::view("/hiba","hiba");
 
 require __DIR__.'/auth.php';
 
