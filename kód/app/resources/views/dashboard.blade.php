@@ -66,8 +66,7 @@ use App\Models\tipp;
                             @csrf
                             <x-input-label class="block">
                                 <div class="bg-[#1E1E1E]">
-                                    <x-input-label style="font-size: 17px" class="md:font-Inter text-black ..."
-                                        for="text" type="text" name="text"/>
+
                                     <x-text-input id="text" class="text-pink-900 block mt-1 w-full border-none ..."
                                         type="text" id="text" name="text" required autofocus />
                                     <hr class="my-0  h-px bg-[#1E1E1E] rounded border-0 ">
